@@ -58,13 +58,14 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="ColossalManaged.cd" />
-    <None Include="ICities.cd" />
-    <None Include="Assembly-CSharp.cd" />
+    <None Include="Extra Stuff\Class Diagrams\ColossalManaged.cd" />
+    <None Include="Extra Stuff\Class Diagrams\ICities.cd" />
+    <None Include="Extra Stuff\Class Diagrams\Assembly-CSharp.cd" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="snippits.txt" />
+    <Content Include="Extra Stuff\snippits.txt" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <PropertyGroup>
     <PostBuildEvent>mkdir "D:\SteamLibrary\steamapps\common\Cities_Skylines\Files\Mods\$(SolutionName)"
