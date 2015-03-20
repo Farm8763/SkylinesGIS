@@ -1,0 +1,1233 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="ColossalFramework.SavedValue" Collapsed="true">
+    <Position X="17.25" Y="9.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="ColossalFramework.SavedInt" Collapsed="true">
+    <Position X="12.75" Y="10.75" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="ColossalFramework.SavedBool" Collapsed="true">
+    <Position X="17.25" Y="10.75" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="ColossalFramework.Texture3DWrapper" Collapsed="true">
+    <Position X="59" Y="8.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="ColossalFramework.PostProcessEffect" Collapsed="true">
+    <Position X="11" Y="15.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="ColossalFramework.Clipboard" Collapsed="true">
+    <Position X="57.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="ColossalFramework.SingletonResource&lt;T&gt;" Collapsed="true">
+    <Position X="59" Y="7.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="ColossalFramework.SingletonConfig" Collapsed="true">
+    <Position X="57.25" Y="7.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="ColossalFramework.Singleton&lt;T&gt;" Collapsed="true">
+    <Position X="5.25" Y="12.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="ColossalFramework.FilmGrainEffect" Collapsed="true">
+    <Position X="13.25" Y="17" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="ColossalFramework.StringExtensions" Collapsed="true">
+    <Position X="73" Y="7.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="ColossalFramework.UIntExtensions" Collapsed="true">
+    <Position X="74.75" Y="9.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="ColossalFramework.IntExtensions" Collapsed="true">
+    <Position X="74.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="ColossalFramework.ReflectionExtensions" Collapsed="true">
+    <Position X="57.25" Y="6.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="ColossalFramework.EnumExtensions" Collapsed="true">
+    <Position X="67.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="ColossalFramework.COMath" Collapsed="true">
+    <Position X="60.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="ColossalFramework.GlobalAPISettings" Collapsed="true">
+    <Position X="66" Y="3.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="ColossalFramework.ValueAnimator" Collapsed="true">
+    <Position X="9.75" Y="14" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="ColossalFramework.SingletonLite&lt;T&gt;" Collapsed="true">
+    <Position X="17.75" Y="15.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="ColossalFramework.SavedFloat" Collapsed="true">
+    <Position X="15" Y="10.75" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="ColossalFramework.GameSettings" Collapsed="true">
+    <Position X="3" Y="14" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="ColossalFramework.EasingFunctions" Collapsed="true">
+    <Position X="62.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="ColossalFramework.OptionValueCollection" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="74.75" Y="4.5" Width="1.5" />
+    <TypeIdentifier />
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="ColossalFramework.OptionContext" Collapsed="true">
+    <Position X="69.5" Y="4.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="ColossalFramework.Option" Collapsed="true">
+    <Position X="67.75" Y="4.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="ColossalFramework.ArgumentSource" Collapsed="true">
+    <Position X="6.5" Y="18.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="ColossalFramework.ResponseFileSource" Collapsed="true">
+    <Position X="6.5" Y="19.75" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="ColossalFramework.OptionException" Collapsed="true">
+    <Position X="71.25" Y="4.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="ColossalFramework.OptionSet" Collapsed="true">
+    <Position X="73" Y="4.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="ColossalFramework.SavedInputKey" Collapsed="true">
+    <Position X="21.75" Y="10.75" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="ColossalFramework.PoolList&lt;T&gt;" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="73" Y="5.5" Width="1.5" />
+    <TypeIdentifier />
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="ColossalFramework.MultiMap&lt;TKey, TValue&gt;" Collapsed="true">
+    <Position X="66" Y="4.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="ColossalFramework.SettingsFile" Collapsed="true">
+    <Position X="74.75" Y="6.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="ColossalFramework.ToneMapping" Collapsed="true">
+    <Position X="8.75" Y="17" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="ColossalFramework.IntersectionTest" Collapsed="true">
+    <Position X="71.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="ColossalFramework.SavedString" Collapsed="true">
+    <Position X="19.5" Y="10.75" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="ColossalFramework.CursorInfo" Collapsed="true">
+    <Position X="73" Y="1.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="ColossalFramework.ConsoleWindow" Collapsed="true">
+    <Position X="64.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="ColossalFramework.BootStrapper" Collapsed="true">
+    <Position X="74.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="ColossalFramework.PathAvailablitiyEventArgs" Collapsed="true">
+    <Position X="64.25" Y="5.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="ColossalFramework.ExtendedFileSystemWatcher" Collapsed="true">
+    <Position X="71.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="ColossalFramework.GameHandledException" Collapsed="true">
+    <Position X="62.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="ColossalFramework.GameSettingsException" Collapsed="true">
+    <Position X="64.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="ColossalFramework.RebindableKeyAttribute" Collapsed="true">
+    <Position X="74.75" Y="5.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="ColossalFramework.EnumPositionAttribute" Collapsed="true">
+    <Position X="69.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="ColossalFramework.Utils" Collapsed="true">
+    <Position X="74.75" Y="10.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="ColossalFramework.CommandLine" Collapsed="true">
+    <Position X="62.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="ColossalFramework.Screenshot" Collapsed="true">
+    <Position X="71.25" Y="6.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="ColossalFramework.ColorCorrectionLut" Collapsed="true">
+    <Position X="11" Y="17" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="ColossalFramework.CODebugBase&lt;T&gt;" Collapsed="true">
+    <Position X="16.5" Y="16.75" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="ColossalFramework.AnimatedValue&lt;T&gt;" Collapsed="true">
+    <Position X="9" Y="6.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="ColossalFramework.AnimatedFloat" Collapsed="true">
+    <Position X="1.25" Y="7.75" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="ColossalFramework.AnimatedInt" Collapsed="true">
+    <Position X="3.5" Y="7.75" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="ColossalFramework.AnimatedVector3" Collapsed="true">
+    <Position X="5.75" Y="7.75" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="ColossalFramework.AnimatedVector4" Collapsed="true">
+    <Position X="8" Y="7.75" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="ColossalFramework.AnimatedVector2" Collapsed="true">
+    <Position X="10.25" Y="7.75" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="ColossalFramework.AnimatedQuaternion" Collapsed="true">
+    <Position X="12.5" Y="7.75" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="ColossalFramework.AnimatedColor" Collapsed="true">
+    <Position X="14.75" Y="7.75" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="ColossalFramework.AnimatedColor32" Collapsed="true">
+    <Position X="17" Y="7.75" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="ColossalFramework.DataBinding.BindProperty" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="71.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier />
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="ColossalFramework.DataBinding.TooltipHelper" Collapsed="true">
+    <Position X="62.5" Y="8.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="ColossalFramework.DataBinding.BindPropertyByKey" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="73" Y="0.5" Width="1.5" />
+    <TypeIdentifier />
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="ColossalFramework.DataBinding.SynchronizedProperty" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="74.75" Y="7.5" Width="1.5" />
+    <TypeIdentifier />
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="ColossalFramework.DataBinding.BindingReference" Collapsed="true">
+    <Position X="69.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="ColossalFramework.DataBinding.BindEvent" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="67.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier />
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="ColossalFramework.Globalization.LocaleManager" Collapsed="true">
+    <Position X="18.75" Y="16.75" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="ColossalFramework.Globalization.Locale" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="59" Y="4.5" Width="1.5" />
+    <TypeIdentifier />
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="ColossalFramework.Globalization.LocaleImporter" Collapsed="true">
+    <Position X="62.5" Y="4.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="ColossalFramework.Globalization.LocaleInfo" Collapsed="true">
+    <Position X="64.25" Y="4.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="ColossalFramework.Globalization.LocaleAttribute" Collapsed="true">
+    <Position X="60.75" Y="4.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="ColossalFramework.HTTP.JSON" Collapsed="true">
+    <Position X="76.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="ColossalFramework.HTTP.ResponseCallbackDispatcher" Collapsed="true">
+    <Position X="66" Y="6.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="ColossalFramework.HTTP.HTTPException" Collapsed="true">
+    <Position X="67.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="ColossalFramework.HTTP.Request" Collapsed="true">
+    <Position X="62.5" Y="6.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="ColossalFramework.HTTP.DiskCacheOperation" Collapsed="true">
+    <Position X="60.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="ColossalFramework.HTTP.DiskCache" Collapsed="true">
+    <Position X="59" Y="2.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="ColossalFramework.HTTP.Response" Collapsed="true">
+    <Position X="64.25" Y="6.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="ColossalFramework.HTTP.CookieAccessInfo" Collapsed="true">
+    <Position X="69.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="ColossalFramework.HTTP.Cookie" Collapsed="true">
+    <Position X="67.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="ColossalFramework.HTTP.CookieJar" Collapsed="true">
+    <Position X="71.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="ColossalFramework.HTTP.Paradox.Telemetry" Collapsed="true">
+    <Position X="57.25" Y="8.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="ColossalFramework.HTTP.Paradox.Feed" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="73" Y="2.5" Width="1.5" />
+    <TypeIdentifier />
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="ColossalFramework.HTTP.Paradox.Account" Collapsed="true">
+    <Position X="57.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="ColossalFramework.Importers.SceneImporter" Collapsed="true">
+    <Position X="69.5" Y="6.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="ColossalFramework.Importers.Image" Collapsed="true">
+    <Position X="69.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="ColossalFramework.IO.PathEscaper" Collapsed="true">
+    <Position X="66" Y="5.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="ColossalFramework.IO.StreamExtensions" Collapsed="true">
+    <Position X="71.25" Y="7.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="ColossalFramework.IO.PathUtils" Collapsed="true">
+    <Position X="67.75" Y="5.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="ColossalFramework.IO.FileUtils" Collapsed="true">
+    <Position X="76.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="ColossalFramework.IO.DirectoryUtils" Collapsed="true">
+    <Position X="57.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="ColossalFramework.IO.EncodedArray" Collapsed="true">
+    <Position X="64.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="ColossalFramework.IO.SafeFileStream" Collapsed="true">
+    <Position X="67.75" Y="6.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="ColossalFramework.IO.DataLocation" Collapsed="true">
+    <Position X="74.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="ColossalFramework.IO.ReporterSetup" Collapsed="true">
+    <Position X="60.75" Y="6.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="ColossalFramework.IO.ReporterEventArgs" Collapsed="true">
+    <Position X="59" Y="6.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="ColossalFramework.IO.FileSystemReporter" Collapsed="true">
+    <Position X="74.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="ColossalFramework.IO.DataSerializer" Collapsed="true">
+    <Position X="76.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="ColossalFramework.Math.VectorUtils" Collapsed="true">
+    <Position X="57.25" Y="11.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="ColossalFramework.Packaging.Package" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="76.5" Y="4.5" Width="1.5" />
+    <TypeIdentifier />
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="ColossalFramework.Packaging.PackageManager" Collapsed="true">
+    <Position X="0.75" Y="14" Width="1.5" />
+    <TypeIdentifier />
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="ColossalFramework.Packaging.PackageReader" Collapsed="true">
+    <Position X="59" Y="5.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="ColossalFramework.Packaging.PackageWriter" Collapsed="true">
+    <Position X="62.5" Y="5.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="ColossalFramework.Packaging.PackageSerializer" Collapsed="true">
+    <Position X="60.75" Y="5.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="ColossalFramework.Packaging.PackageDeserializer" Collapsed="true">
+    <Position X="57.25" Y="5.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="ColossalFramework.Plugins.Sponsor&lt;TInterface&gt;" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="60.75" Y="7.5" Width="1.5" />
+    <TypeIdentifier />
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="ColossalFramework.Plugins.PluginHost" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="71.25" Y="5.5" Width="1.5" />
+    <TypeIdentifier />
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="ColossalFramework.Plugins.PluginManager" Collapsed="true">
+    <Position X="7.5" Y="14" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="ColossalFramework.Security.Checksums" Collapsed="true">
+    <Position X="76.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="ColossalFramework.Security.SecurityHelper" Collapsed="true">
+    <Position X="73" Y="6.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="ColossalFramework.Security.SimpleAES" Collapsed="true">
+    <Position X="76.5" Y="6.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="ColossalFramework.Security.EncryptedAssemblyUtils" Collapsed="true">
+    <Position X="66" Y="2.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="ColossalFramework.Steamworks.SteamInitializationException" Collapsed="true">
+    <Position X="69.5" Y="7.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="ColossalFramework.Steamworks.Steam" Collapsed="true">
+    <Position X="66" Y="7.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="ColossalFramework.Steamworks.Achievements" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="60.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier />
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="ColossalFramework.Steamworks.Achievement" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="59" Y="0.5" Width="1.5" />
+    <TypeIdentifier />
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="ColossalFramework.Steamworks.Workshop" Collapsed="true">
+    <Position X="59" Y="11.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="ColossalFramework.Steamworks.Stats" Collapsed="true">
+    <Position X="64.25" Y="7.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="ColossalFramework.Steamworks.Cloud" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="59" Y="1.5" Width="1.5" />
+    <TypeIdentifier />
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="ColossalFramework.Steamworks.FriendsFlagsExtensions" Collapsed="true">
+    <Position X="60.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="ColossalFramework.Steamworks.PersonaChangeExtensions" Collapsed="true">
+    <Position X="69.5" Y="5.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="ColossalFramework.Steamworks.Stat" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="62.5" Y="7.5" Width="1.5" />
+    <TypeIdentifier />
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="ColossalFramework.Steamworks.Friend" Collapsed="true">
+    <Position X="59" Y="3.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="ColossalFramework.Steamworks.SteamCloudStream" Collapsed="true">
+    <Position X="67.75" Y="7.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="ColossalFramework.Threading.TaskExtension" Collapsed="true">
+    <Position X="76.5" Y="7.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="ColossalFramework.Threading.ThreadBase" Collapsed="true">
+    <Position X="3" Y="15.5" Width="1.5" />
+    <TypeIdentifier />
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="ColossalFramework.Threading.ActionThread" Collapsed="true">
+    <Position X="0.75" Y="16.75" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="ColossalFramework.Threading.EnumerableActionThread" Collapsed="true">
+    <Position X="3" Y="16.75" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="ColossalFramework.Threading.TickerThread" Collapsed="true">
+    <Position X="5.25" Y="16.75" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="ColossalFramework.Threading.DispatcherBase" Collapsed="true">
+    <Position X="15" Y="12.5" Width="1.5" />
+    <TypeIdentifier />
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="ColossalFramework.Threading.NullDispatcher" Collapsed="true">
+    <Position X="12.75" Y="13.75" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="ColossalFramework.Threading.Dispatcher" Collapsed="true">
+    <Position X="15" Y="13.75" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="ColossalFramework.Threading.ThreadHelper" Collapsed="true">
+    <Position X="60.75" Y="8.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="ColossalFramework.Threading.TaskDistributor" Collapsed="true">
+    <Position X="17.25" Y="13.75" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="ColossalFramework.Threading.Task" Collapsed="true">
+    <Position X="3.5" Y="18.5" Width="1.5" />
+    <TypeIdentifier />
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="ColossalFramework.Threading.Task&lt;T&gt;" Collapsed="true">
+    <Position X="3.5" Y="19.75" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="ColossalFramework.Threading.ContextSwitch" Collapsed="true">
+    <Position X="66" Y="1.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="ColossalFramework.UI.UIComponent" Collapsed="true">
+    <Position X="28.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier />
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="ColossalFramework.UI.UISprite" Collapsed="true">
+    <Position X="39" Y="2" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="ColossalFramework.UI.UIGraph" Collapsed="true">
+    <Position X="43.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="ColossalFramework.UI.UIDragHandle" Collapsed="true">
+    <Position X="45.75" Y="2" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="ColossalFramework.UI.UITextureSprite" Collapsed="true">
+    <Position X="49" Y="2" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="ColossalFramework.UI.UICanvasSprite" Collapsed="true">
+    <Position X="50.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="ColossalFramework.UI.UITabContainer" Collapsed="true">
+    <Position X="54.75" Y="2" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="ColossalFramework.UI.UIRenderData" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="59" Y="10.5" Width="1.5" />
+    <TypeIdentifier />
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="ColossalFramework.UI.UIMultiStateButton" Collapsed="true">
+    <Position X="3" Y="2" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="ColossalFramework.UI.UIAnchorMargins" Collapsed="true">
+    <Position X="67.75" Y="8.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="ColossalFramework.UI.UIAbortRenderingException" Collapsed="true">
+    <Position X="64.25" Y="8.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="ColossalFramework.UI.UICustomControl" Collapsed="true">
+    <Position X="0.5" Y="18.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="ColossalFramework.UI.UIColorPicker" Collapsed="true">
+    <Position X="0.5" Y="20" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="ColossalFramework.UI.UITextComponent" Collapsed="true">
+    <Position X="13" Y="2" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="ColossalFramework.UI.UIInteractiveComponent" Collapsed="true">
+    <Position X="12" Y="3.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="ColossalFramework.UI.UIColorField" Collapsed="true">
+    <Position X="7.5" Y="4.75" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="ColossalFramework.UI.UITiledSprite" Collapsed="true">
+    <Position X="39" Y="3.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="ColossalFramework.UI.UILabel" Collapsed="true">
+    <Position X="18.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="ColossalFramework.UI.UIFont" Collapsed="true">
+    <Position X="1.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="ColossalFramework.UI.UIFontRenderer" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="57.25" Y="9.5" Width="1.5" />
+    <TypeIdentifier />
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="ColossalFramework.UI.UIRadialSprite" Collapsed="true">
+    <Position X="41.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="ColossalFramework.UI.UIHitInfo" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="59" Y="9.5" Width="1.5" />
+    <TypeIdentifier />
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="ColossalFramework.UI.UIInput" Collapsed="true">
+    <Position X="62.5" Y="9.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="ColossalFramework.UI.UIAnchorLayout" Collapsed="true">
+    <Position X="66" Y="8.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="ColossalFramework.UI.UIAnimationBase" Collapsed="true">
+    <Position X="8.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="ColossalFramework.UI.UIComponentEventParameter" Collapsed="true">
+    <Position X="5.25" Y="9.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="ColossalFramework.UI.UITooltipEventParameter" Collapsed="true">
+    <Position X="0.75" Y="10.75" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="ColossalFramework.UI.UIFocusEventParameter" Collapsed="true">
+    <Position X="3" Y="10.75" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="ColossalFramework.UI.UIMouseEventParameter" Collapsed="true">
+    <Position X="5.25" Y="10.75" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="ColossalFramework.UI.UIKeyEventParameter" Collapsed="true">
+    <Position X="7.5" Y="10.75" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="ColossalFramework.UI.UIDragEventParameter" Collapsed="true">
+    <Position X="9.75" Y="10.75" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="ColossalFramework.UI.UICheckBox" Collapsed="true">
+    <Position X="52.5" Y="2" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="ColossalFramework.UI.UIBitmapFont" Collapsed="true">
+    <Position X="2.75" Y="5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="ColossalFramework.UI.UIAnimationClip" Collapsed="true">
+    <Position X="69.5" Y="8.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="ColossalFramework.UI.UIScrollbar" Collapsed="true">
+    <Position X="5.25" Y="2" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="ColossalFramework.UI.UIFontManager" Collapsed="true">
+    <Position X="76.5" Y="8.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="ColossalFramework.UI.UIDynamicFont" Collapsed="true">
+    <Position X="0.5" Y="5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="ColossalFramework.UI.UISlicedSprite" Collapsed="true">
+    <Position X="34.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="ColossalFramework.UI.UIDynamicPanels" Collapsed="true">
+    <Position X="74.75" Y="8.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="ColossalFramework.UI.UITemplateManager" Collapsed="true">
+    <Position X="5.25" Y="14" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="ColossalFramework.UI.UITemplateCleanup" Collapsed="true">
+    <Position X="67.75" Y="10.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="ColossalFramework.UI.UITemplate" Collapsed="true">
+    <Position X="66" Y="10.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="ColossalFramework.UI.UIListBox" Collapsed="true">
+    <Position X="9.75" Y="4.75" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="ColossalFramework.UI.UIAnimatedSprite" Collapsed="true">
+    <Position X="8.5" Y="2" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="ColossalFramework.UI.UIDropDown" Collapsed="true">
+    <Position X="12" Y="4.75" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="ColossalFramework.UI.UIMarkupStyle" Collapsed="true">
+    <Position X="66" Y="9.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="ColossalFramework.UI.UIMarkupTokenAttribute" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="69.5" Y="9.5" Width="1.5" />
+    <TypeIdentifier />
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="ColossalFramework.UI.UIMarkupToken" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="67.75" Y="9.5" Width="1.5" />
+    <TypeIdentifier />
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="ColossalFramework.UI.UIMarkupTokenizer" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="71.25" Y="9.5" Width="1.5" />
+    <TypeIdentifier />
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="ColossalFramework.UI.UIPlainTextTokenizer" Collapsed="true">
+    <Position X="57.25" Y="10.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="ColossalFramework.UI.UIView" Collapsed="true">
+    <Position X="73" Y="10.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="ColossalFramework.UI.UIUtils" Collapsed="true">
+    <Position X="71.25" Y="10.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="ColossalFramework.UI.UIClippingUtils" Collapsed="true">
+    <Position X="71.25" Y="8.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="ColossalFramework.UI.UITabstrip" Collapsed="true">
+    <Position X="21" Y="2" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="ColossalFramework.UI.UIRadialChart" Collapsed="true">
+    <Position X="36.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="ColossalFramework.UI.UIProgressBar" Collapsed="true">
+    <Position X="23.25" Y="2" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="ColossalFramework.UI.UIScrollablePanel" Collapsed="true">
+    <Position X="25.5" Y="2" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="ColossalFramework.UI.UIUriSprite" Collapsed="true">
+    <Position X="48" Y="3.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="ColossalFramework.UI.UISlider" Collapsed="true">
+    <Position X="27.75" Y="2" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="ColossalFramework.UI.UIResizeHandle" Collapsed="true">
+    <Position X="30" Y="2" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="ColossalFramework.UI.UIPanel" Collapsed="true">
+    <Position X="32.25" Y="2" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="ColossalFramework.UI.UIComponentMenuAttribute" Collapsed="true">
+    <Position X="73" Y="8.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="ColossalFramework.UI.UIButton" Collapsed="true">
+    <Position X="14.25" Y="4.75" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="ColossalFramework.UI.UITextureAtlas" Collapsed="true">
+    <Position X="69.5" Y="10.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="ColossalFramework.UI.UITextField" Collapsed="true">
+    <Position X="16.5" Y="4.75" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="ColossalFramework.UI.UISpriteAttribute" Collapsed="true">
+    <Position X="62.5" Y="10.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="ColossalFramework.UI.UIKeyShortcuts" Collapsed="true">
+    <Position X="64.25" Y="9.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="ColossalFramework.UI.UIHitInfoExtensions" Collapsed="true">
+    <Position X="60.75" Y="9.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="ColossalFramework.UI.ArrayExtensions" Collapsed="true">
+    <Position X="64.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="ColossalFramework.UI.UISpriteFlipExtensions" Collapsed="true">
+    <Position X="64.25" Y="10.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="ColossalFramework.UI.UIResizeEdgeExtensions" Collapsed="true">
+    <Position X="60.75" Y="10.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="ColossalFramework.UI.UIMouseButtonExtensions" Collapsed="true">
+    <Position X="73" Y="9.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="ColossalFramework.UI.AnchorStyleExtensions" Collapsed="true">
+    <Position X="62.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="ColossalFramework.UI.IntExtensions" Collapsed="true">
+    <Position X="73" Y="3.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="ColossalFramework.UI.FloatExtensions" Collapsed="true">
+    <Position X="57.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="ColossalFramework.UI.VectorExtensions" Collapsed="true">
+    <Position X="76.5" Y="10.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="ColossalFramework.UI.UIPivotExtensions" Collapsed="true">
+    <Position X="76.5" Y="9.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="ColossalFramework.UI.RectExtensions" Collapsed="true">
+    <Position X="76.5" Y="5.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="ColossalFramework.UI.LayoutStartExtension" Collapsed="true">
+    <Position X="57.25" Y="4.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="ColossalFramework.UI.AttachUIOverlay" Collapsed="true">
+    <Position X="66" Y="0.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Struct Name="ColossalFramework.InputKey" Collapsed="true">
+    <Position X="64.25" Y="12.75" Width="1.5" />
+    <TypeIdentifier />
+  </Struct>
+  <Struct Name="ColossalFramework.PositionData&lt;T&gt;" Collapsed="true">
+    <Position X="69.5" Y="12.75" Width="1.5" />
+    <TypeIdentifier />
+  </Struct>
+  <Struct Name="ColossalFramework.Math.Triangle3" Collapsed="true">
+    <Position X="71.25" Y="13.75" Width="1.5" />
+    <TypeIdentifier />
+  </Struct>
+  <Struct Name="ColossalFramework.Math.Triangle2" Collapsed="true">
+    <Position X="69.5" Y="13.75" Width="1.5" />
+    <TypeIdentifier />
+  </Struct>
+  <Struct Name="ColossalFramework.Math.Segment3" Collapsed="true">
+    <Position X="64.25" Y="13.75" Width="1.5" />
+    <TypeIdentifier />
+  </Struct>
+  <Struct Name="ColossalFramework.Math.Segment2" Collapsed="true">
+    <Position X="62.5" Y="13.75" Width="1.5" />
+    <TypeIdentifier />
+  </Struct>
+  <Struct Name="ColossalFramework.Math.Segment1" Collapsed="true">
+    <Position X="60.75" Y="13.75" Width="1.5" />
+    <TypeIdentifier />
+  </Struct>
+  <Struct Name="ColossalFramework.Math.Bezier3" Collapsed="true">
+    <Position X="59" Y="12.75" Width="1.5" />
+    <TypeIdentifier />
+  </Struct>
+  <Struct Name="ColossalFramework.Math.Randomizer" Collapsed="true">
+    <Position X="76.5" Y="12.75" Width="1.5" />
+    <TypeIdentifier />
+  </Struct>
+  <Struct Name="ColossalFramework.Math.Bezier2" Collapsed="true">
+    <Position X="57.25" Y="12.75" Width="1.5" />
+    <TypeIdentifier />
+  </Struct>
+  <Struct Name="ColossalFramework.Math.Quad3" Collapsed="true">
+    <Position X="74.75" Y="12.75" Width="1.5" />
+    <TypeIdentifier />
+  </Struct>
+  <Struct Name="ColossalFramework.Math.Quad2" Collapsed="true">
+    <Position X="73" Y="12.75" Width="1.5" />
+    <TypeIdentifier />
+  </Struct>
+  <Struct Name="ColossalFramework.Math.Line3" Collapsed="true">
+    <Position X="67.75" Y="12.75" Width="1.5" />
+    <TypeIdentifier />
+  </Struct>
+  <Struct Name="ColossalFramework.Math.Line2" Collapsed="true">
+    <Position X="66" Y="12.75" Width="1.5" />
+    <TypeIdentifier />
+  </Struct>
+  <Struct Name="ColossalFramework.Math.HSBColor" Collapsed="true">
+    <Position X="62.5" Y="12.75" Width="1.5" />
+    <TypeIdentifier />
+  </Struct>
+  <Struct Name="ColossalFramework.Steamworks.SteamID" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="66" Y="13.75" Width="1.5" />
+    <TypeIdentifier />
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Struct>
+  <Struct Name="ColossalFramework.Steamworks.UGCHandle" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="74.75" Y="13.75" Width="1.5" />
+    <TypeIdentifier />
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Struct>
+  <Struct Name="ColossalFramework.Steamworks.PublishedFileId" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="71.25" Y="12.75" Width="1.5" />
+    <TypeIdentifier />
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Struct>
+  <Struct Name="ColossalFramework.Steamworks.RemoteStorageFileShareResult" Collapsed="true">
+    <Position X="57.25" Y="13.75" Width="1.5" />
+    <TypeIdentifier />
+  </Struct>
+  <Struct Name="ColossalFramework.Steamworks.RemoteStoragePublishFileResult" Collapsed="true">
+    <Position X="59" Y="13.75" Width="1.5" />
+    <TypeIdentifier />
+  </Struct>
+  <Struct Name="ColossalFramework.Steamworks.CreateItemResult" Collapsed="true">
+    <Position X="60.75" Y="12.75" Width="1.5" />
+    <TypeIdentifier />
+  </Struct>
+  <Struct Name="ColossalFramework.Steamworks.SubmitItemUpdateResult" Collapsed="true">
+    <Position X="67.75" Y="13.75" Width="1.5" />
+    <TypeIdentifier />
+  </Struct>
+  <Struct Name="ColossalFramework.Steamworks.UGCDetails" Collapsed="true">
+    <Position X="73" Y="13.75" Width="1.5" />
+    <TypeIdentifier />
+  </Struct>
+  <Interface Name="ColossalFramework.IPoolable" Collapsed="true">
+    <Position X="62.5" Y="15" Width="1.5" />
+    <TypeIdentifier />
+  </Interface>
+  <Interface Name="ColossalFramework.DataBinding.IComponent" Collapsed="true">
+    <Position X="57.25" Y="15" Width="1.5" />
+    <TypeIdentifier />
+  </Interface>
+  <Interface Name="ColossalFramework.DataBinding.ISynchronized" Collapsed="true">
+    <Position X="64.25" Y="15" Width="1.5" />
+    <TypeIdentifier />
+  </Interface>
+  <Interface Name="ColossalFramework.IO.IDataContainer" Collapsed="true">
+    <Position X="59" Y="15" Width="1.5" />
+    <TypeIdentifier />
+  </Interface>
+  <Interface Name="ColossalFramework.UI.IInputTranslator" Collapsed="true">
+    <Position X="60.75" Y="15" Width="1.5" />
+    <TypeIdentifier />
+  </Interface>
+  <Enum Name="ColossalFramework.OptionValueType" Collapsed="true">
+    <Position X="57.25" Y="16.75" Width="1.5" />
+    <TypeIdentifier />
+  </Enum>
+  <Enum Name="ColossalFramework.EasingType" Collapsed="true">
+    <Position X="60.75" Y="16" Width="1.5" />
+    <TypeIdentifier />
+  </Enum>
+  <Enum Name="ColossalFramework.ErrorLevel" Collapsed="true">
+    <Position X="62.5" Y="16" Width="1.5" />
+    <TypeIdentifier />
+  </Enum>
+  <Enum Name="ColossalFramework.InternalLogChannel" Collapsed="true">
+    <Position X="69.5" Y="16" Width="1.5" />
+    <TypeIdentifier />
+  </Enum>
+  <Enum Name="ColossalFramework.HTTP.RequestState" Collapsed="true">
+    <Position X="66" Y="16.75" Width="1.5" />
+    <TypeIdentifier />
+  </Enum>
+  <Enum Name="ColossalFramework.IO.ArgumentType" Collapsed="true">
+    <Position X="57.25" Y="16" Width="1.5" />
+    <TypeIdentifier />
+  </Enum>
+  <Enum Name="ColossalFramework.Steamworks.FriendsFlags" Collapsed="true">
+    <Position X="64.25" Y="16" Width="1.5" />
+    <TypeIdentifier />
+  </Enum>
+  <Enum Name="ColossalFramework.Steamworks.PersonaChange" Collapsed="true">
+    <Position X="60.75" Y="16.75" Width="1.5" />
+    <TypeIdentifier />
+  </Enum>
+  <Enum Name="ColossalFramework.Steamworks.PersonaState" Collapsed="true">
+    <Position X="62.5" Y="16.75" Width="1.5" />
+    <TypeIdentifier />
+  </Enum>
+  <Enum Name="ColossalFramework.Steamworks.GameOverlayDialog" Collapsed="true">
+    <Position X="66" Y="16" Width="1.5" />
+    <TypeIdentifier />
+  </Enum>
+  <Enum Name="ColossalFramework.Steamworks.GameOverlayOption" Collapsed="true">
+    <Position X="67.75" Y="16" Width="1.5" />
+    <TypeIdentifier />
+  </Enum>
+  <Enum Name="ColossalFramework.Steamworks.OverlayToStoreFlag" Collapsed="true">
+    <Position X="59" Y="16.75" Width="1.5" />
+    <TypeIdentifier />
+  </Enum>
+  <Enum Name="ColossalFramework.Steamworks.NotificationPosition" Collapsed="true">
+    <Position X="76.5" Y="16" Width="1.5" />
+    <TypeIdentifier />
+  </Enum>
+  <Enum Name="ColossalFramework.Steamworks.Result" Collapsed="true">
+    <Position X="67.75" Y="16.75" Width="1.5" />
+    <TypeIdentifier />
+  </Enum>
+  <Enum Name="ColossalFramework.Steamworks.StatType" Collapsed="true">
+    <Position X="69.5" Y="16.75" Width="1.5" />
+    <TypeIdentifier />
+  </Enum>
+  <Enum Name="ColossalFramework.Steamworks.RemoteStoragePublishedFileVisibility" Collapsed="true">
+    <Position X="64.25" Y="16.75" Width="1.5" />
+    <TypeIdentifier />
+  </Enum>
+  <Enum Name="ColossalFramework.Steamworks.WorkshopFileType" Collapsed="true">
+    <Position X="71.25" Y="18.25" Width="1.5" />
+    <TypeIdentifier />
+  </Enum>
+  <Enum Name="ColossalFramework.Steamworks.UserUGCList" Collapsed="true">
+    <Position X="67.75" Y="18.25" Width="1.5" />
+    <TypeIdentifier />
+  </Enum>
+  <Enum Name="ColossalFramework.Steamworks.UGCMatchingUGCType" Collapsed="true">
+    <Position X="73" Y="16.75" Width="1.5" />
+    <TypeIdentifier />
+  </Enum>
+  <Enum Name="ColossalFramework.Steamworks.UserUGCListSortOrder" Collapsed="true">
+    <Position X="69.5" Y="18.25" Width="1.5" />
+    <TypeIdentifier />
+  </Enum>
+  <Enum Name="ColossalFramework.Steamworks.UGCQuery" Collapsed="true">
+    <Position X="74.75" Y="16.75" Width="1.5" />
+    <TypeIdentifier />
+  </Enum>
+  <Enum Name="ColossalFramework.Steamworks.ItemUpdateStatus" Collapsed="true">
+    <Position X="71.25" Y="16" Width="1.5" />
+    <TypeIdentifier />
+  </Enum>
+  <Enum Name="ColossalFramework.Threading.TaskSortingType" Collapsed="true">
+    <Position X="71.25" Y="16.75" Width="1.5" />
+    <TypeIdentifier />
+  </Enum>
+  <Enum Name="ColossalFramework.UI.UISpriteFlip" Collapsed="true">
+    <Position X="60.75" Y="18.25" Width="1.5" />
+    <TypeIdentifier />
+  </Enum>
+  <Enum Name="ColossalFramework.UI.UIFillDirection" Collapsed="true">
+    <Position X="66" Y="17.5" Width="1.5" />
+    <TypeIdentifier />
+  </Enum>
+  <Enum Name="ColossalFramework.UI.UITextScaleMode" Collapsed="true">
+    <Position X="62.5" Y="18.25" Width="1.5" />
+    <TypeIdentifier />
+  </Enum>
+  <Enum Name="ColossalFramework.UI.UIDragDropState" Collapsed="true">
+    <Position X="64.25" Y="17.5" Width="1.5" />
+    <TypeIdentifier />
+  </Enum>
+  <Enum Name="ColossalFramework.UI.LayoutDirection" Collapsed="true">
+    <Position X="73" Y="16" Width="1.5" />
+    <TypeIdentifier />
+  </Enum>
+  <Enum Name="ColossalFramework.UI.LayoutStart" Collapsed="true">
+    <Position X="74.75" Y="16" Width="1.5" />
+    <TypeIdentifier />
+  </Enum>
+  <Enum Name="ColossalFramework.UI.UIFillMode" Collapsed="true">
+    <Position X="67.75" Y="17.5" Width="1.5" />
+    <TypeIdentifier />
+  </Enum>
+  <Enum Name="ColossalFramework.UI.UIForegroundSpriteMode" Collapsed="true">
+    <Position X="69.5" Y="17.5" Width="1.5" />
+    <TypeIdentifier />
+  </Enum>
+  <Enum Name="ColossalFramework.UI.UIOrientation" Collapsed="true">
+    <Position X="57.25" Y="18.25" Width="1.5" />
+    <TypeIdentifier />
+  </Enum>
+  <Enum Name="ColossalFramework.UI.UIIntersectionType" Collapsed="true">
+    <Position X="73" Y="17.5" Width="1.5" />
+    <TypeIdentifier />
+  </Enum>
+  <Enum Name="ColossalFramework.UI.UIHorizontalAlignment" Collapsed="true">
+    <Position X="71.25" Y="17.5" Width="1.5" />
+    <TypeIdentifier />
+  </Enum>
+  <Enum Name="ColossalFramework.UI.UIVerticalAlignment" Collapsed="true">
+    <Position X="66" Y="18.25" Width="1.5" />
+    <TypeIdentifier />
+  </Enum>
+  <Enum Name="ColossalFramework.UI.UIPivotPoint" Collapsed="true">
+    <Position X="59" Y="18.25" Width="1.5" />
+    <TypeIdentifier />
+  </Enum>
+  <Enum Name="ColossalFramework.UI.UIAlignAnchor" Collapsed="true">
+    <Position X="76.5" Y="16.75" Width="1.5" />
+    <TypeIdentifier />
+  </Enum>
+  <Enum Name="ColossalFramework.UI.UITooltipAnchor" Collapsed="true">
+    <Position X="64.25" Y="18.25" Width="1.5" />
+    <TypeIdentifier />
+  </Enum>
+  <Enum Name="ColossalFramework.UI.UIAnchorStyle" Collapsed="true">
+    <Position X="57.25" Y="17.5" Width="1.5" />
+    <TypeIdentifier />
+  </Enum>
+  <Enum Name="ColossalFramework.UI.ClipDirection" Collapsed="true">
+    <Position X="59" Y="16" Width="1.5" />
+    <TypeIdentifier />
+  </Enum>
+  <Enum Name="ColossalFramework.UI.UIAnimationState" Collapsed="true">
+    <Position X="62.5" Y="17.5" Width="1.5" />
+    <TypeIdentifier />
+  </Enum>
+  <Enum Name="ColossalFramework.UI.UIAnimationLoopType" Collapsed="true">
+    <Position X="59" Y="17.5" Width="1.5" />
+    <TypeIdentifier />
+  </Enum>
+  <Enum Name="ColossalFramework.UI.UIAnimationPlayDirection" Collapsed="true">
+    <Position X="60.75" Y="17.5" Width="1.5" />
+    <TypeIdentifier />
+  </Enum>
+  <Enum Name="ColossalFramework.UI.UIMouseButton" Collapsed="true">
+    <Position X="76.5" Y="17.5" Width="1.5" />
+    <TypeIdentifier />
+  </Enum>
+  <Enum Name="ColossalFramework.UI.UIMarkupTokenType" Collapsed="true">
+    <Position X="74.75" Y="17.5" Width="1.5" />
+    <TypeIdentifier />
+  </Enum>
+  <Delegate Name="ColossalFramework.OptionAction&lt;TKey, TValue&gt;" Collapsed="true">
+    <Position X="69.5" Y="19.25" Width="1.5" />
+    <TypeIdentifier />
+  </Delegate>
+  <Delegate Name="ColossalFramework.PathAvailabilityHandler" Collapsed="true">
+    <Position X="71.25" Y="19.25" Width="1.5" />
+    <TypeIdentifier />
+  </Delegate>
+  <Delegate Name="ColossalFramework.HTTP.ContentsChangedDelegate" Collapsed="true">
+    <Position X="59" Y="19.25" Width="1.5" />
+    <TypeIdentifier />
+  </Delegate>
+  <Delegate Name="ColossalFramework.UI.FitChildrenEventHandler" Collapsed="true">
+    <Position X="62.5" Y="19.25" Width="1.5" />
+    <TypeIdentifier />
+  </Delegate>
+  <Delegate Name="ColossalFramework.UI.ChildComponentEventHandler" Collapsed="true">
+    <Position X="57.25" Y="19.25" Width="1.5" />
+    <TypeIdentifier />
+  </Delegate>
+  <Delegate Name="ColossalFramework.UI.FocusEventHandler" Collapsed="true">
+    <Position X="64.25" Y="19.25" Width="1.5" />
+    <TypeIdentifier />
+  </Delegate>
+  <Delegate Name="ColossalFramework.UI.KeyPressHandler" Collapsed="true">
+    <Position X="66" Y="19.25" Width="1.5" />
+    <TypeIdentifier />
+  </Delegate>
+  <Delegate Name="ColossalFramework.UI.MouseEventHandler" Collapsed="true">
+    <Position X="67.75" Y="19.25" Width="1.5" />
+    <TypeIdentifier />
+  </Delegate>
+  <Delegate Name="ColossalFramework.UI.PropertyChangedEventHandler&lt;T&gt;" Collapsed="true">
+    <Position X="73" Y="19.25" Width="1.5" />
+    <TypeIdentifier />
+  </Delegate>
+  <Delegate Name="ColossalFramework.UI.DragEventHandler" Collapsed="true">
+    <Position X="60.75" Y="19.25" Width="1.5" />
+    <TypeIdentifier />
+  </Delegate>
+  <Delegate Name="ColossalFramework.UI.TooltipEventHandler" Collapsed="true">
+    <Position X="74.75" Y="19.25" Width="1.5" />
+    <TypeIdentifier />
+  </Delegate>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

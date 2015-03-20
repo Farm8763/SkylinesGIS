@@ -1,0 +1,190 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="ICities.LoadingExtensionBase" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="0.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier />
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="ICities.MilestonesExtensionBase" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="2.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier />
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="ICities.AreasExtensionBase" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="0.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier />
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="ICities.LevelUpExtensionBase" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="7.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier />
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="ICities.EconomyExtensionBase" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="5.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier />
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="ICities.SerializableDataExtensionBase" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="4" Y="1.5" Width="1.5" />
+    <TypeIdentifier />
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="ICities.ChirperExtensionBase" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="2.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier />
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="ICities.DemandExtensionBase" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="4" Y="0.5" Width="1.5" />
+    <TypeIdentifier />
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="ICities.ThreadingExtensionBase" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="7.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier />
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="ICities.TerrainExtensionBase" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="5.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier />
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Struct Name="ICities.ResidentialLevelUp" Collapsed="true">
+    <Position X="5.75" Y="2.75" Width="1.5" />
+    <TypeIdentifier />
+  </Struct>
+  <Struct Name="ICities.CommercialLevelUp" Collapsed="true">
+    <Position X="0.5" Y="2.75" Width="1.5" />
+    <TypeIdentifier />
+  </Struct>
+  <Struct Name="ICities.IndustrialLevelUp" Collapsed="true">
+    <Position X="2.25" Y="2.75" Width="1.5" />
+    <TypeIdentifier />
+  </Struct>
+  <Struct Name="ICities.OfficeLevelUp" Collapsed="true">
+    <Position X="4" Y="2.75" Width="1.5" />
+    <TypeIdentifier />
+  </Struct>
+  <Interface Name="ICities.ILoading" Collapsed="true">
+    <Position X="2.25" Y="5.5" Width="1.5" />
+    <TypeIdentifier />
+  </Interface>
+  <Interface Name="ICities.ILoadingExtension" Collapsed="true">
+    <Position X="4" Y="5.5" Width="1.5" />
+    <TypeIdentifier />
+  </Interface>
+  <Interface Name="ICities.IMilestones" Collapsed="true">
+    <Position X="7.5" Y="5.5" Width="1.5" />
+    <TypeIdentifier />
+  </Interface>
+  <Interface Name="ICities.IMilestonesExtension" Collapsed="true">
+    <Position X="0.5" Y="6.25" Width="1.5" />
+    <TypeIdentifier />
+  </Interface>
+  <Interface Name="ICities.IAreas" Collapsed="true">
+    <Position X="0.5" Y="4" Width="1.5" />
+    <TypeIdentifier />
+  </Interface>
+  <Interface Name="ICities.IAreasExtension" Collapsed="true">
+    <Position X="2.25" Y="4" Width="1.5" />
+    <TypeIdentifier />
+  </Interface>
+  <Interface Name="ICities.ILevelUp" Collapsed="true">
+    <Position X="7.5" Y="4.75" Width="1.5" />
+    <TypeIdentifier />
+  </Interface>
+  <Interface Name="ICities.ILevelUpExtension" Collapsed="true">
+    <Position X="0.5" Y="5.5" Width="1.5" />
+    <TypeIdentifier />
+  </Interface>
+  <Interface Name="ICities.IManagers" Collapsed="true">
+    <Position X="5.75" Y="5.5" Width="1.5" />
+    <TypeIdentifier />
+  </Interface>
+  <Interface Name="ICities.IEconomy" Collapsed="true">
+    <Position X="4" Y="4.75" Width="1.5" />
+    <TypeIdentifier />
+  </Interface>
+  <Interface Name="ICities.IEconomyExtension" Collapsed="true">
+    <Position X="5.75" Y="4.75" Width="1.5" />
+    <TypeIdentifier />
+  </Interface>
+  <Interface Name="ICities.ISerializableData" Collapsed="true">
+    <Position X="2.25" Y="6.25" Width="1.5" />
+    <TypeIdentifier />
+  </Interface>
+  <Interface Name="ICities.ISerializableDataExtension" Collapsed="true">
+    <Position X="4" Y="6.25" Width="1.5" />
+    <TypeIdentifier />
+  </Interface>
+  <Interface Name="ICities.IChirperMessage" Collapsed="true">
+    <Position X="7.5" Y="4" Width="1.5" />
+    <TypeIdentifier />
+  </Interface>
+  <Interface Name="ICities.IChirper" Collapsed="true">
+    <Position X="4" Y="4" Width="1.5" />
+    <TypeIdentifier />
+  </Interface>
+  <Interface Name="ICities.IChirperExtension" Collapsed="true">
+    <Position X="5.75" Y="4" Width="1.5" />
+    <TypeIdentifier />
+  </Interface>
+  <Interface Name="ICities.IDemand" Collapsed="true">
+    <Position X="0.5" Y="4.75" Width="1.5" />
+    <TypeIdentifier />
+  </Interface>
+  <Interface Name="ICities.IDemandExtension" Collapsed="true">
+    <Position X="2.25" Y="4.75" Width="1.5" />
+    <TypeIdentifier />
+  </Interface>
+  <Interface Name="ICities.IUserMod" Collapsed="true">
+    <Position X="4" Y="7" Width="1.5" />
+    <TypeIdentifier />
+  </Interface>
+  <Interface Name="ICities.IThreading" Collapsed="true">
+    <Position X="0.5" Y="7" Width="1.5" />
+    <TypeIdentifier />
+  </Interface>
+  <Interface Name="ICities.IThreadingExtension" Collapsed="true">
+    <Position X="2.25" Y="7" Width="1.5" />
+    <TypeIdentifier />
+  </Interface>
+  <Interface Name="ICities.ITerrain" Collapsed="true">
+    <Position X="5.75" Y="6.25" Width="1.5" />
+    <TypeIdentifier />
+  </Interface>
+  <Interface Name="ICities.ITerrainExtension" Collapsed="true">
+    <Position X="7.5" Y="6.25" Width="1.5" />
+    <TypeIdentifier />
+  </Interface>
+  <Enum Name="ICities.Service" Collapsed="true">
+    <Position X="0.5" Y="8.75" Width="1.5" />
+    <TypeIdentifier />
+  </Enum>
+  <Enum Name="ICities.SubService" Collapsed="true">
+    <Position X="2.25" Y="8.75" Width="1.5" />
+    <TypeIdentifier />
+  </Enum>
+  <Enum Name="ICities.Level" Collapsed="true">
+    <Position X="5.75" Y="8" Width="1.5" />
+    <TypeIdentifier />
+  </Enum>
+  <Enum Name="ICities.LoadMode" Collapsed="true">
+    <Position X="7.5" Y="8" Width="1.5" />
+    <TypeIdentifier />
+  </Enum>
+  <Enum Name="ICities.AppMode" Collapsed="true">
+    <Position X="0.5" Y="8" Width="1.5" />
+    <TypeIdentifier />
+  </Enum>
+  <Enum Name="ICities.EconomyResource" Collapsed="true">
+    <Position X="4" Y="8" Width="1.5" />
+    <TypeIdentifier />
+  </Enum>
+  <Enum Name="ICities.ChirperAnchor" Collapsed="true">
+    <Position X="2.25" Y="8" Width="1.5" />
+    <TypeIdentifier />
+  </Enum>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

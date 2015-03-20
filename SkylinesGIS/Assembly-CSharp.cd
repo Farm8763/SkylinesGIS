@@ -1,0 +1,3600 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="AgeInfoViewPanel" Collapsed="true">
+    <Position X="232.75" Y="34.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="AircraftAI" Collapsed="true">
+    <Position X="43.75" Y="51.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="AmbulanceAI" Collapsed="true">
+    <Position X="48.25" Y="52.75" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="AnimalAI" Collapsed="true">
+    <Position X="175.5" Y="51.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="AnimalWorldInfoPanel" Collapsed="true">
+    <Position X="73" Y="35.75" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="Applets" Collapsed="true">
+    <Position X="300.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="AreasWrapper" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="302.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier />
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="AreaTexture" Collapsed="true">
+    <Position X="304" Y="0.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="Array16&lt;T&gt;" Collapsed="true">
+    <Position X="305.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="Array32&lt;T&gt;" Collapsed="true">
+    <Position X="307.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="Array8&lt;T&gt;" Collapsed="true">
+    <Position X="309.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="AssetEditorChirpPanel" Collapsed="true">
+    <Position X="55" Y="33" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="AssetEditorMainToolbar" Collapsed="true">
+    <Position X="158.5" Y="35.75" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="AssetEditorSettingsGroupPanel" Collapsed="true">
+    <Position X="131.5" Y="41.75" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="AssetEditorSettingsPanel" Collapsed="true">
+    <Position X="194.5" Y="46.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="AssetImporterAssetImport" Collapsed="true">
+    <Position X="219.25" Y="34.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="AssetImporterAssetLOD" Collapsed="true">
+    <Position X="221.5" Y="34.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="AssetImporterAssetTemplate">
+    <Position X="223.75" Y="34.5" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Nested Types" Collapsed="false" />
+    </Compartments>
+    <NestedTypes>
+      <Enum Name="AssetImporterAssetTemplate.Filter" Collapsed="true">
+        <TypeIdentifier />
+      </Enum>
+      <Enum Name="AssetImporterAssetTemplate.TemplateMode" Collapsed="true">
+        <TypeIdentifier />
+      </Enum>
+    </NestedTypes>
+    <TypeIdentifier />
+  </Class>
+  <Class Name="AssetImporterAssetType" Collapsed="true">
+    <Position X="226" Y="34.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="AssetImporterPanelBase" Collapsed="true">
+    <Position X="222.75" Y="33" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="AssetImporterWizard" Collapsed="true">
+    <Position X="230.5" Y="33" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="AssetTemplateListItem" Collapsed="true">
+    <Position X="311" Y="0.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="AsyncAction" Collapsed="true">
+    <Position X="15" Y="24.75" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="AsyncTask" Collapsed="true">
+    <Position X="17.25" Y="24.75" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="AsyncTask&lt;T&gt;" Collapsed="true">
+    <Position X="19.5" Y="24.75" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="AsyncTaskBase" Collapsed="true">
+    <Position X="17.25" Y="23.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="AsyncTaskWrapper" Collapsed="true">
+    <Position X="21.75" Y="24.75" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="AudioGroup">
+    <Position X="312.75" Y="0.5" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Nested Types" Collapsed="false" />
+    </Compartments>
+    <NestedTypes>
+      <Class Name="AudioGroup.PlayerData" Collapsed="true">
+        <TypeIdentifier />
+      </Class>
+    </NestedTypes>
+    <TypeIdentifier />
+  </Class>
+  <Class Name="AudioInfo">
+    <Position X="314.5" Y="0.5" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Nested Types" Collapsed="false" />
+    </Compartments>
+    <NestedTypes>
+      <Struct Name="AudioInfo.Variation" Collapsed="true">
+        <TypeIdentifier />
+      </Struct>
+    </NestedTypes>
+    <TypeIdentifier />
+  </Class>
+  <Class Name="AudioManager">
+    <Position X="3.75" Y="2" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Nested Types" Collapsed="false" />
+    </Compartments>
+    <NestedTypes>
+      <Enum Name="AudioManager.AmbientType" Collapsed="true">
+        <TypeIdentifier />
+      </Enum>
+      <Class Name="AudioManager.AudioPlayer" Collapsed="true">
+        <TypeIdentifier />
+      </Class>
+      <Class Name="AudioManager.ListenerInfo" Collapsed="true">
+        <TypeIdentifier />
+      </Class>
+      <Enum Name="AudioManager.MusicType" Collapsed="true">
+        <TypeIdentifier />
+      </Enum>
+      <Struct Name="AudioManager.SimulationEvent" Collapsed="true">
+        <TypeIdentifier />
+      </Struct>
+    </NestedTypes>
+    <TypeIdentifier />
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="AudioProperties" Collapsed="true">
+    <Position X="316.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="BailoutPanel" Collapsed="true">
+    <Position X="318" Y="0.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="BeautificationGroupPanel" Collapsed="true">
+    <Position X="95.5" Y="41.75" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="BeautificationPanel" Collapsed="true">
+    <Position X="172" Y="46.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="Bindings" Collapsed="true">
+    <Position X="319.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="BirdAI" Collapsed="true">
+    <Position X="176.5" Y="52.75" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="BrokenAssetException" Collapsed="true">
+    <Position X="321.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="BrushOptionPanel" Collapsed="true">
+    <Position X="48.25" Y="33" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="BuildConfig" Collapsed="true">
+    <Position X="300.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="BuildingAI">
+    <Position X="103.5" Y="50" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Nested Types" Collapsed="false" />
+    </Compartments>
+    <NestedTypes>
+      <Enum Name="BuildingAI.PathFindType" Collapsed="true">
+        <TypeIdentifier />
+      </Enum>
+    </NestedTypes>
+    <TypeIdentifier />
+  </Class>
+  <Class Name="BuildingCollection" Collapsed="true">
+    <Position X="302.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="BuildingCommonCollection" Collapsed="true">
+    <Position X="304" Y="1.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="BuildingDecoration" Collapsed="true">
+    <Position X="305.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="BuildingInfo">
+    <Position X="50.75" Y="57.5" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Nested Types" Collapsed="false" />
+    </Compartments>
+    <NestedTypes>
+      <Class Name="BuildingInfo.MeshInfo" Collapsed="true">
+        <TypeIdentifier />
+      </Class>
+      <Class Name="BuildingInfo.PathInfo" Collapsed="true">
+        <TypeIdentifier />
+      </Class>
+      <Enum Name="BuildingInfo.PlacementMode" Collapsed="true">
+        <TypeIdentifier />
+      </Enum>
+      <Class Name="BuildingInfo.Prop" Collapsed="true">
+        <TypeIdentifier />
+      </Class>
+    </NestedTypes>
+    <TypeIdentifier />
+  </Class>
+  <Class Name="BuildingInfoBase" Collapsed="true">
+    <Position X="52" Y="56" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="BuildingInfoGen" Collapsed="true">
+    <Position X="307.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="BuildingInfoSub" Collapsed="true">
+    <Position X="53" Y="57.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="BuildingInstanceGuide">
+    <Position X="1.25" Y="61" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Nested Types" Collapsed="false" />
+    </Compartments>
+    <NestedTypes>
+      <Class Name="BuildingInstanceGuide.BuildingInstanceActivationInfo" Collapsed="true">
+        <TypeIdentifier />
+      </Class>
+    </NestedTypes>
+    <TypeIdentifier />
+  </Class>
+  <Class Name="BuildingManager">
+    <Position X="48.75" Y="2" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Nested Types" Collapsed="false" />
+    </Compartments>
+    <NestedTypes>
+      <Class Name="BuildingManager.Data" Collapsed="true">
+        <TypeIdentifier />
+        <Lollipop Position="0.2" />
+      </Class>
+    </NestedTypes>
+    <TypeIdentifier />
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="BuildingOnFireGuide" Collapsed="true">
+    <Position X="1.25" Y="67" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="BuildingProperties" Collapsed="true">
+    <Position X="309.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="BuildingTool">
+    <Position X="29" Y="46.25" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Nested Types" Collapsed="false" />
+    </Compartments>
+    <NestedTypes>
+      <Delegate Name="BuildingTool.RelocateCompleted" Collapsed="true">
+        <TypeIdentifier />
+      </Delegate>
+    </NestedTypes>
+    <TypeIdentifier />
+  </Class>
+  <Class Name="BuildingTutorialTag" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="311" Y="1.5" Width="1.5" />
+    <TypeIdentifier />
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="BuildingTypeGuide">
+    <Position X="14.75" Y="61" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Nested Types" Collapsed="false" />
+    </Compartments>
+    <NestedTypes>
+      <Class Name="BuildingTypeGuide.BuildingTypeActivationInfo" Collapsed="true">
+        <TypeIdentifier />
+      </Class>
+    </NestedTypes>
+    <TypeIdentifier />
+  </Class>
+  <Class Name="BuildingWorldInfoPanel" Collapsed="true">
+    <Position X="83.25" Y="34.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="BulldozerPanel" Collapsed="true">
+    <Position X="214.75" Y="46.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="BulldozeTool">
+    <Position X="31.25" Y="47.75" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Nested Types" Collapsed="false" />
+    </Compartments>
+    <NestedTypes>
+      <Enum Name="BulldozeTool.Mode" Collapsed="true">
+        <TypeIdentifier />
+      </Enum>
+    </NestedTypes>
+    <TypeIdentifier />
+  </Class>
+  <Class Name="BusAI" Collapsed="true">
+    <Position X="46" Y="52.75" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="CameraController">
+    <Position X="312.75" Y="1.5" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Nested Types" Collapsed="false" />
+    </Compartments>
+    <NestedTypes>
+      <Enum Name="CameraController.ViewMode" Collapsed="true">
+        <TypeIdentifier />
+      </Enum>
+    </NestedTypes>
+    <TypeIdentifier />
+  </Class>
+  <Class Name="CameraTool" Collapsed="true">
+    <Position X="4.25" Y="46.25" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="CarAI" Collapsed="true">
+    <Position X="54" Y="51.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="CargoHarborAI" Collapsed="true">
+    <Position X="86.5" Y="76" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="CargoPathAI" Collapsed="true">
+    <Position X="149.5" Y="52.75" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="CargoShipAI" Collapsed="true">
+    <Position X="70.75" Y="52.75" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="CargoStationAI" Collapsed="true">
+    <Position X="86.5" Y="74.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="CargoTrainAI" Collapsed="true">
+    <Position X="66.25" Y="52.75" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="CargoTruckAI" Collapsed="true">
+    <Position X="55" Y="52.75" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="CarTrailerAI" Collapsed="true">
+    <Position X="64" Y="51.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="CemeteryAI" Collapsed="true">
+    <Position X="91" Y="74.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="ChirperBehaviourContainer" Collapsed="true">
+    <Position X="314.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="ChirperWrapper" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="316.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier />
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="ChirpPanel" Collapsed="true">
+    <Position X="86.5" Y="33" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="CitizenAI" Collapsed="true">
+    <Position X="182.25" Y="50" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="CitizenCollection" Collapsed="true">
+    <Position X="318" Y="1.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="CitizenInfo" Collapsed="true">
+    <Position X="55.25" Y="56" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="CitizenManager">
+    <Position X="51" Y="2" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Nested Types" Collapsed="false" />
+    </Compartments>
+    <NestedTypes>
+      <Class Name="CitizenManager.Data" Collapsed="true">
+        <TypeIdentifier />
+        <Lollipop Position="0.2" />
+      </Class>
+    </NestedTypes>
+    <TypeIdentifier />
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="CitizenMessage" Collapsed="true">
+    <Position X="0.5" Y="21.75" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="CitizenProperties" Collapsed="true">
+    <Position X="319.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="CitizenVehicleWorldInfoPanel" Collapsed="true">
+    <Position X="64" Y="35.75" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="CitizenWorldInfoPanel" Collapsed="true">
+    <Position X="77.5" Y="37.25" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="CityInfoPanel" Collapsed="true">
+    <Position X="295.75" Y="33" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="CityNameGroups">
+    <Position X="321.5" Y="1.5" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Nested Types" Collapsed="false" />
+    </Compartments>
+    <NestedTypes>
+      <Class Name="CityNameGroups.Environment" Collapsed="true">
+        <TypeIdentifier />
+      </Class>
+    </NestedTypes>
+    <TypeIdentifier />
+  </Class>
+  <Class Name="CityServiceVehicleWorldInfoPanel" Collapsed="true">
+    <Position X="66.25" Y="35.75" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="CityServiceWorldInfoPanel" Collapsed="true">
+    <Position X="82" Y="35.75" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="CoalParticles_anim" Collapsed="true">
+    <Position X="300.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="CODebug" Collapsed="true">
+    <Position X="302.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="ColorCorrectionManager" Collapsed="true">
+    <Position X="304" Y="2.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="ColorCorrectionMetaData" Collapsed="true">
+    <Position X="0.75" Y="24.75" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="ColorUtils" Collapsed="true">
+    <Position X="305.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="CombinedMilestone">
+    <Position X="20" Y="66" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Nested Types" Collapsed="false" />
+    </Compartments>
+    <NestedTypes>
+      <Class Name="CombinedMilestone.CombinedData" Collapsed="true">
+        <TypeIdentifier />
+      </Class>
+    </NestedTypes>
+    <TypeIdentifier />
+  </Class>
+  <Class Name="CommercialBuildingAI" Collapsed="true">
+    <Position X="113.5" Y="74.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="CommonBuildingAI" Collapsed="true">
+    <Position X="100" Y="71.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="ConfirmPanel" Collapsed="true">
+    <Position X="6" Y="19" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="CoverageManager" Collapsed="true">
+    <Position X="26.25" Y="2" Width="1.5" />
+    <TypeIdentifier />
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="CoverageProperties" Collapsed="true">
+    <Position X="307.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="CreditsScroller">
+    <Position X="309.25" Y="2.5" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Nested Types" Collapsed="false" />
+    </Compartments>
+    <NestedTypes>
+      <Class Name="CreditsScroller.TagInfo" Collapsed="true">
+        <TypeIdentifier />
+      </Class>
+      <Enum Name="CreditsScroller.TagType" Collapsed="true">
+        <TypeIdentifier />
+      </Enum>
+    </NestedTypes>
+    <TypeIdentifier />
+  </Class>
+  <Class Name="CrimeInfoViewPanel" Collapsed="true">
+    <Position X="257.5" Y="34.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="CustomAssetMetaData">
+    <Position X="5.25" Y="24.75" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Nested Types" Collapsed="false" />
+    </Compartments>
+    <NestedTypes>
+      <Enum Name="CustomAssetMetaData.Type" Collapsed="true">
+        <TypeIdentifier />
+      </Enum>
+    </NestedTypes>
+    <TypeIdentifier />
+  </Class>
+  <Class Name="CustomContentPanel" Collapsed="true">
+    <Position X="12.75" Y="19" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="CustomizablePropertyAttribute" Collapsed="true">
+    <Position X="311" Y="2.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="DamAI" Collapsed="true">
+    <Position X="142.75" Y="62.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="DamPowerHouseAI" Collapsed="true">
+    <Position X="104.5" Y="76" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="DebugOutputPanel" Collapsed="true">
+    <Position X="312.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="DecorationInfo" Collapsed="true">
+    <Position X="314.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="DecorationKeyShortcuts" Collapsed="true">
+    <Position X="18.25" Y="15" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="DecorationMesh" Collapsed="true">
+    <Position X="316.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="DecorationPropertiesPanel" Collapsed="true">
+    <Position X="284.5" Y="33" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="DecorationRenderer" Collapsed="true">
+    <Position X="318" Y="2.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="DefaultSettings" Collapsed="true">
+    <Position X="319.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="DefaultTool" Collapsed="true">
+    <Position X="31.25" Y="46.25" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="DeluxeToggle" Collapsed="true">
+    <Position X="321.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="DemandWrapper" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="300.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier />
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="DepotAI">
+    <Position X="77.5" Y="74.5" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Nested Types" Collapsed="false" />
+    </Compartments>
+    <NestedTypes>
+      <Struct Name="DepotAI.SpawnPoint" Collapsed="true">
+        <TypeIdentifier />
+      </Struct>
+    </NestedTypes>
+    <TypeIdentifier />
+  </Class>
+  <Class Name="DesaturationControl" Collapsed="true">
+    <Position X="302.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="DeveloperUI" Collapsed="true">
+    <Position X="304" Y="3.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="DistrictGroupPanel" Collapsed="true">
+    <Position X="115.75" Y="41.75" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="DistrictManager">
+    <Position X="24" Y="2" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Nested Types" Collapsed="false" />
+    </Compartments>
+    <NestedTypes>
+      <Struct Name="DistrictManager.Cell" Collapsed="true">
+        <TypeIdentifier />
+      </Struct>
+      <Class Name="DistrictManager.Data" Collapsed="true">
+        <TypeIdentifier />
+        <Lollipop Position="0.2" />
+      </Class>
+    </NestedTypes>
+    <TypeIdentifier />
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="DistrictOptionPanel" Collapsed="true">
+    <Position X="52.75" Y="33" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="DistrictPanel" Collapsed="true">
+    <Position X="187.75" Y="46.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="DistrictPolicies">
+    <Position X="305.75" Y="3.5" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Nested Types" Collapsed="false" />
+    </Compartments>
+    <NestedTypes>
+      <Enum Name="DistrictPolicies.CityPlanning" Collapsed="true">
+        <TypeIdentifier />
+      </Enum>
+      <Enum Name="DistrictPolicies.Industry" Collapsed="true">
+        <TypeIdentifier />
+      </Enum>
+      <Enum Name="DistrictPolicies.Policies" Collapsed="true">
+        <TypeIdentifier />
+      </Enum>
+      <Enum Name="DistrictPolicies.Services" Collapsed="true">
+        <TypeIdentifier />
+      </Enum>
+      <Enum Name="DistrictPolicies.Special" Collapsed="true">
+        <TypeIdentifier />
+      </Enum>
+      <Enum Name="DistrictPolicies.Taxation" Collapsed="true">
+        <TypeIdentifier />
+      </Enum>
+      <Enum Name="DistrictPolicies.Types" Collapsed="true">
+        <TypeIdentifier />
+      </Enum>
+    </NestedTypes>
+    <TypeIdentifier />
+  </Class>
+  <Class Name="DistrictProperties" Collapsed="true">
+    <Position X="307.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="DistrictTool">
+    <Position X="22.25" Y="46.25" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Nested Types" Collapsed="false" />
+    </Compartments>
+    <NestedTypes>
+      <Enum Name="DistrictTool.Mode" Collapsed="true">
+        <TypeIdentifier />
+      </Enum>
+    </NestedTypes>
+    <TypeIdentifier />
+  </Class>
+  <Class Name="DistrictWorldInfoPanel" Collapsed="true">
+    <Position X="70.75" Y="34.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="EconomyManager">
+    <Position X="55.5" Y="2" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Nested Types" Collapsed="false" />
+    </Compartments>
+    <NestedTypes>
+      <Struct Name="EconomyManager.Bank" Collapsed="true">
+        <TypeIdentifier />
+      </Struct>
+      <Class Name="EconomyManager.Data" Collapsed="true">
+        <TypeIdentifier />
+        <Lollipop Position="0.2" />
+      </Class>
+      <Struct Name="EconomyManager.Loan" Collapsed="true">
+        <TypeIdentifier />
+      </Struct>
+      <Struct Name="EconomyManager.LoanInfo" Collapsed="true">
+        <TypeIdentifier />
+      </Struct>
+      <Enum Name="EconomyManager.Resource" Collapsed="true">
+        <TypeIdentifier />
+      </Enum>
+    </NestedTypes>
+    <TypeIdentifier />
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="EconomyPanel" Collapsed="true">
+    <Position X="286.75" Y="33" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="EconomyProperties" Collapsed="true">
+    <Position X="309.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="EconomyWrapper" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="311" Y="3.5" Width="1.5" />
+    <TypeIdentifier />
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="EdenProjectAI" Collapsed="true">
+    <Position X="106.75" Y="76" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="EditorChirpPanel" Collapsed="true">
+    <Position X="298" Y="33" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="EducationGroupPanel" Collapsed="true">
+    <Position X="156.25" Y="41.75" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="EducationInfoViewPanel" Collapsed="true">
+    <Position X="235" Y="34.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="EducationPanel" Collapsed="true">
+    <Position X="167.5" Y="46.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="EffectInfo">
+    <Position X="32.25" Y="18.5" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Nested Types" Collapsed="false" />
+    </Compartments>
+    <NestedTypes>
+      <Struct Name="EffectInfo.SpawnArea" Collapsed="true">
+        <TypeIdentifier />
+      </Struct>
+    </NestedTypes>
+    <TypeIdentifier />
+  </Class>
+  <Class Name="EffectManager">
+    <Position X="6" Y="2" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Nested Types" Collapsed="false" />
+    </Compartments>
+    <NestedTypes>
+      <Struct Name="EffectManager.SimulationEvent" Collapsed="true">
+        <TypeIdentifier />
+      </Struct>
+    </NestedTypes>
+    <TypeIdentifier />
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="EffectProperties" Collapsed="true">
+    <Position X="312.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="ElectricityGroupPanel" Collapsed="true">
+    <Position X="104.5" Y="41.75" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="ElectricityInfoViewPanel" Collapsed="true">
+    <Position X="244" Y="34.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="ElectricityManager">
+    <Position X="19.5" Y="2" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Nested Types" Collapsed="false" />
+    </Compartments>
+    <NestedTypes>
+      <Class Name="ElectricityManager.Data" Collapsed="true">
+        <TypeIdentifier />
+        <Lollipop Position="0.2" />
+      </Class>
+    </NestedTypes>
+    <TypeIdentifier />
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="ElectricityPanel" Collapsed="true">
+    <Position X="181" Y="46.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="ElectricityProperties" Collapsed="true">
+    <Position X="314.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="EngineSoundEffect" Collapsed="true">
+    <Position X="27.75" Y="25.25" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="EntertainmentInfoViewPanel" Collapsed="true">
+    <Position X="250.75" Y="34.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="EnvironmentGroupPanel" Collapsed="true">
+    <Position X="127" Y="41.75" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="EnvironmentPanel" Collapsed="true">
+    <Position X="192.25" Y="46.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="ErrorManager">
+    <Position X="316.25" Y="3.5" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Nested Types" Collapsed="false" />
+    </Compartments>
+    <NestedTypes>
+      <Class Name="ErrorManager.Data" Collapsed="true">
+        <TypeIdentifier />
+        <Lollipop Position="0.2" />
+      </Class>
+    </NestedTypes>
+    <TypeIdentifier />
+  </Class>
+  <Class Name="ExceptionPanel" Collapsed="true">
+    <Position X="15" Y="19" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="ExitConfirmPanel" Collapsed="true">
+    <Position X="17.25" Y="19" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="ExportHeightmapPanel" Collapsed="true">
+    <Position X="46" Y="37.75" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="FastList&lt;T&gt;" Collapsed="true">
+    <Position X="318" Y="3.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="FireDepartmentGroupPanel" Collapsed="true">
+    <Position X="145" Y="41.75" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="FireDepartmentPanel" Collapsed="true">
+    <Position X="208" Y="46.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="FireEffect" Collapsed="true">
+    <Position X="34.5" Y="24" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="FiremanAI" Collapsed="true">
+    <Position X="187.75" Y="54.25" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="FireSafetyInfoViewPanel" Collapsed="true">
+    <Position X="273.25" Y="34.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="FireStationAI" Collapsed="true">
+    <Position X="109" Y="74.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="FireTruckAI" Collapsed="true">
+    <Position X="61.75" Y="52.75" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="FixedMath" Collapsed="true">
+    <Position X="319.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="FlightPathAI" Collapsed="true">
+    <Position X="136" Y="52.75" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="FogEffect" Collapsed="true">
+    <Position X="321.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="ForestGroupPanel" Collapsed="true">
+    <Position X="97.75" Y="41.75" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="ForestPanel" Collapsed="true">
+    <Position X="174.25" Y="46.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="FusionPowerPlantAI" Collapsed="true">
+    <Position X="100" Y="76" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="GameAreaInfoPanel" Collapsed="true">
+    <Position X="41.5" Y="33" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="GameAreaManager">
+    <Position X="21.75" Y="2" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Nested Types" Collapsed="false" />
+    </Compartments>
+    <NestedTypes>
+      <Class Name="GameAreaManager.Data" Collapsed="true">
+        <TypeIdentifier />
+        <Lollipop Position="0.2" />
+      </Class>
+    </NestedTypes>
+    <TypeIdentifier />
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="GameAreaProperties" Collapsed="true">
+    <Position X="300.5" Y="4.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="GameAreaTool" Collapsed="true">
+    <Position X="13.25" Y="46.25" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="GameInfoViewsPanel" Collapsed="true">
+    <Position X="280" Y="34.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="GameKeyShortcuts" Collapsed="true">
+    <Position X="13.75" Y="15" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="GameMainToolbar" Collapsed="true">
+    <Position X="160.75" Y="35.75" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="GarbageGroupPanel" Collapsed="true">
+    <Position X="133.75" Y="41.75" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="GarbageInfoViewPanel" Collapsed="true">
+    <Position X="259.75" Y="34.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="GarbagePanel" Collapsed="true">
+    <Position X="196.75" Y="46.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="GarbageTruckAI" Collapsed="true">
+    <Position X="57.25" Y="52.75" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="GeneratedGroupPanel">
+    <Position X="124.75" Y="33" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Nested Types" Collapsed="false" />
+    </Compartments>
+    <NestedTypes>
+      <Enum Name="GeneratedGroupPanel.GroupFilter" Collapsed="true">
+        <TypeIdentifier />
+      </Enum>
+      <Class Name="GeneratedGroupPanel.GroupInfo" Collapsed="true">
+        <TypeIdentifier />
+      </Class>
+    </NestedTypes>
+    <TypeIdentifier />
+  </Class>
+  <Class Name="GeneratedPanel" Collapsed="true">
+    <Position X="187.75" Y="33" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="GeneratedScrollPanel">
+    <Position X="191.25" Y="34.5" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Nested Types" Collapsed="false" />
+    </Compartments>
+    <NestedTypes>
+      <Enum Name="GeneratedScrollPanel.AssetFilter" Collapsed="true">
+        <TypeIdentifier />
+      </Enum>
+    </NestedTypes>
+    <TypeIdentifier />
+  </Class>
+  <Class Name="GenericGuide">
+    <Position X="5.75" Y="61" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Nested Types" Collapsed="false" />
+    </Compartments>
+    <NestedTypes>
+      <Class Name="GenericGuide.GenericActivationInfo" Collapsed="true">
+        <TypeIdentifier />
+      </Class>
+    </NestedTypes>
+    <TypeIdentifier />
+  </Class>
+  <Class Name="GenericMessage" Collapsed="true">
+    <Position X="2.75" Y="21.75" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="GenericTutorialTag" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="302.25" Y="4.5" Width="1.5" />
+    <TypeIdentifier />
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="GuideController" Collapsed="true">
+    <Position X="304" Y="4.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="GuideInfo">
+    <Position X="305.75" Y="4.5" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Nested Types" Collapsed="false" />
+    </Compartments>
+    <NestedTypes>
+      <Enum Name="GuideInfo.Delay" Collapsed="true">
+        <TypeIdentifier />
+      </Enum>
+    </NestedTypes>
+    <TypeIdentifier />
+  </Class>
+  <Class Name="GuideManager">
+    <Position X="62.25" Y="2" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Nested Types" Collapsed="false" />
+    </Compartments>
+    <NestedTypes>
+      <Class Name="GuideManager.Data" Collapsed="true">
+        <TypeIdentifier />
+        <Lollipop Position="0.2" />
+      </Class>
+    </NestedTypes>
+    <TypeIdentifier />
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="GuideTriggerBase">
+    <Position X="9" Y="54.5" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Nested Types" Collapsed="false" />
+    </Compartments>
+    <NestedTypes>
+      <Class Name="GuideTriggerBase.ActivationInfo" Collapsed="true">
+        <TypeIdentifier />
+      </Class>
+    </NestedTypes>
+    <TypeIdentifier />
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="HadronColliderAI" Collapsed="true">
+    <Position X="111.25" Y="74.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="HappinessInfoViewPanel" Collapsed="true">
+    <Position X="275.5" Y="34.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="HarborAI" Collapsed="true">
+    <Position X="77.5" Y="86.25" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="HealthcareGroupPanel" Collapsed="true">
+    <Position X="93.25" Y="41.75" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="HealthcarePanel" Collapsed="true">
+    <Position X="169.75" Y="46.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="HealthInfoViewPanel" Collapsed="true">
+    <Position X="237.25" Y="34.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="HearseAI" Collapsed="true">
+    <Position X="50.5" Y="52.75" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="HearseDriverAI" Collapsed="true">
+    <Position X="181" Y="54.25" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="HeightmapPanel">
+    <Position X="45" Y="33" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Nested Types" Collapsed="false" />
+    </Compartments>
+    <NestedTypes>
+      <Enum Name="HeightmapPanel.SortingType" Collapsed="true">
+        <TypeIdentifier />
+      </Enum>
+    </NestedTypes>
+    <TypeIdentifier />
+  </Class>
+  <Class Name="HelperExtensions" Collapsed="true">
+    <Position X="307.5" Y="4.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="HospitalAI" Collapsed="true">
+    <Position X="88.75" Y="74.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="HumanAI" Collapsed="true">
+    <Position X="186.75" Y="51.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="HumanWorldInfoPanel" Collapsed="true">
+    <Position X="76.5" Y="35.75" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="IdleTool" Collapsed="true">
+    <Position X="15.5" Y="46.25" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="ImmaterialResourceManager">
+    <Position X="35.25" Y="2" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Nested Types" Collapsed="false" />
+    </Compartments>
+    <NestedTypes>
+      <Class Name="ImmaterialResourceManager.Data" Collapsed="true">
+        <TypeIdentifier />
+        <Lollipop Position="0.2" />
+      </Class>
+      <Enum Name="ImmaterialResourceManager.Resource" Collapsed="true">
+        <TypeIdentifier />
+      </Enum>
+    </NestedTypes>
+    <TypeIdentifier />
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="ImmaterialResourceProperties" Collapsed="true">
+    <Position X="309.25" Y="4.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="ImportHeightmapPanel" Collapsed="true">
+    <Position X="43.75" Y="37.75" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="IndustrialBuildingAI">
+    <Position X="118" Y="74.5" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Nested Types" Collapsed="false" />
+    </Compartments>
+    <NestedTypes>
+      <Enum Name="IndustrialBuildingAI.ProductType" Collapsed="true">
+        <TypeIdentifier />
+      </Enum>
+    </NestedTypes>
+    <TypeIdentifier />
+  </Class>
+  <Class Name="IndustrialExtractorAI" Collapsed="true">
+    <Position X="120.25" Y="74.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="InfoManager">
+    <Position X="44.25" Y="2" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Nested Types" Collapsed="false" />
+    </Compartments>
+    <NestedTypes>
+      <Class Name="InfoManager.Data" Collapsed="true">
+        <TypeIdentifier />
+        <Lollipop Position="0.2" />
+      </Class>
+      <Enum Name="InfoManager.InfoMode" Collapsed="true">
+        <TypeIdentifier />
+      </Enum>
+      <Enum Name="InfoManager.SubInfoMode" Collapsed="true">
+        <TypeIdentifier />
+      </Enum>
+    </NestedTypes>
+    <TypeIdentifier />
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="InfoPanel" Collapsed="true">
+    <Position X="228.25" Y="33" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="InfoProperties">
+    <Position X="311" Y="4.5" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Nested Types" Collapsed="false" />
+    </Compartments>
+    <NestedTypes>
+      <Class Name="InfoProperties.ModeProperties" Collapsed="true">
+        <TypeIdentifier />
+      </Class>
+    </NestedTypes>
+    <TypeIdentifier />
+  </Class>
+  <Class Name="InfoViewPanel" Collapsed="true">
+    <Position X="254.25" Y="33" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="InfoViewsPanel" Collapsed="true">
+    <Position X="281.25" Y="33" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="InstanceManager">
+    <Position X="60" Y="2" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Nested Types" Collapsed="false" />
+    </Compartments>
+    <NestedTypes>
+      <Delegate Name="InstanceManager.ChangeAction" Collapsed="true">
+        <TypeIdentifier />
+      </Delegate>
+      <Class Name="InstanceManager.Data" Collapsed="true">
+        <TypeIdentifier />
+        <Lollipop Position="0.2" />
+      </Class>
+    </NestedTypes>
+    <TypeIdentifier />
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="InstanceProperties" Collapsed="true">
+    <Position X="312.75" Y="4.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="IntersectionAI" Collapsed="true">
+    <Position X="131.5" Y="71.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="ItemClass">
+    <Position X="314.5" Y="4.5" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Nested Types" Collapsed="false" />
+    </Compartments>
+    <NestedTypes>
+      <Enum Name="ItemClass.Availability" Collapsed="true">
+        <TypeIdentifier />
+      </Enum>
+      <Enum Name="ItemClass.Layer" Collapsed="true">
+        <TypeIdentifier />
+      </Enum>
+      <Enum Name="ItemClass.Level" Collapsed="true">
+        <TypeIdentifier />
+      </Enum>
+      <Enum Name="ItemClass.Placement" Collapsed="true">
+        <TypeIdentifier />
+      </Enum>
+      <Enum Name="ItemClass.Service" Collapsed="true">
+        <TypeIdentifier />
+      </Enum>
+      <Enum Name="ItemClass.SubService" Collapsed="true">
+        <TypeIdentifier />
+      </Enum>
+      <Enum Name="ItemClass.Zone" Collapsed="true">
+        <TypeIdentifier />
+      </Enum>
+    </NestedTypes>
+    <TypeIdentifier />
+  </Class>
+  <Class Name="ItemClassCollection" Collapsed="true">
+    <Position X="316.25" Y="4.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="KeyShortcuts" Collapsed="true">
+    <Position X="16" Y="13.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="LandfillSiteAI" Collapsed="true">
+    <Position X="84.25" Y="74.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="LandValueInfoViewPanel" Collapsed="true">
+    <Position X="246.25" Y="34.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="LevelHeightOptionPanel" Collapsed="true">
+    <Position X="50.5" Y="33" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="LevelsInfoViewPanel" Collapsed="true">
+    <Position X="248.5" Y="34.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="LevelUpWrapper" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="318" Y="4.5" Width="1.5" />
+    <TypeIdentifier />
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="LightBeams01_anim" Collapsed="true">
+    <Position X="319.75" Y="4.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="LightBeams01_lightanim" Collapsed="true">
+    <Position X="321.5" Y="4.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="LightBeams02_lightanim" Collapsed="true">
+    <Position X="300.5" Y="5.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="LightEffect" Collapsed="true">
+    <Position X="32.25" Y="24" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="LightRays01_anim" Collapsed="true">
+    <Position X="302.25" Y="5.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="LightSource" Collapsed="true">
+    <Position X="304" Y="5.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="LivestockAI" Collapsed="true">
+    <Position X="178.75" Y="52.75" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="LivestockExtractorAI" Collapsed="true">
+    <Position X="120.25" Y="76" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="LivingCreatureWorldInfoPanel" Collapsed="true">
+    <Position X="76.5" Y="34.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="LoadAssetPanel" Collapsed="true">
+    <Position X="32.5" Y="34.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="LoadingAnimation" Collapsed="true">
+    <Position X="305.75" Y="5.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="LoadingAnimationData" Collapsed="true">
+    <Position X="307.5" Y="5.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="LoadingImage" Collapsed="true">
+    <Position X="309.25" Y="5.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="LoadingManager">
+    <Position X="311" Y="5.5" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Nested Types" Collapsed="false" />
+    </Compartments>
+    <NestedTypes>
+      <Delegate Name="LoadingManager.IntroLoadedHandler" Collapsed="true">
+        <TypeIdentifier />
+      </Delegate>
+      <Delegate Name="LoadingManager.LevelLoadedHandler" Collapsed="true">
+        <TypeIdentifier />
+      </Delegate>
+      <Delegate Name="LoadingManager.LevelPreLoadedHandler" Collapsed="true">
+        <TypeIdentifier />
+      </Delegate>
+      <Delegate Name="LoadingManager.LevelPreUnloadedHandler" Collapsed="true">
+        <TypeIdentifier />
+      </Delegate>
+      <Delegate Name="LoadingManager.LevelUnloadedHandler" Collapsed="true">
+        <TypeIdentifier />
+      </Delegate>
+    </NestedTypes>
+    <TypeIdentifier />
+  </Class>
+  <Class Name="LoadingProfiler">
+    <Position X="312.75" Y="5.5" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Nested Types" Collapsed="false" />
+    </Compartments>
+    <NestedTypes>
+      <Struct Name="LoadingProfiler.Event" Collapsed="true">
+        <TypeIdentifier />
+      </Struct>
+      <Enum Name="LoadingProfiler.Type" Collapsed="true">
+        <TypeIdentifier />
+      </Enum>
+    </NestedTypes>
+    <TypeIdentifier />
+  </Class>
+  <Class Name="LoadingProfilerUI" Collapsed="true">
+    <Position X="314.5" Y="5.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="LoadingWrapper" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="316.25" Y="5.5" Width="1.5" />
+    <TypeIdentifier />
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="LoadMapPanel" Collapsed="true">
+    <Position X="16.75" Y="34.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="LoadPanel" Collapsed="true">
+    <Position X="21.25" Y="34.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="LoadSavePanelBase&lt;T&gt;" Collapsed="true">
+    <Position X="25.75" Y="33" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="LoadSaveStatus" Collapsed="true">
+    <Position X="318" Y="5.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="LocaleFormatter" Collapsed="true">
+    <Position X="319.75" Y="5.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="LocaleID" Collapsed="true">
+    <Position X="321.5" Y="5.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="MainMenu" Collapsed="true">
+    <Position X="3.75" Y="19" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="MainToolbar" Collapsed="true">
+    <Position X="160.75" Y="34.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="ManagersWrapper" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="300.5" Y="6.5" Width="1.5" />
+    <TypeIdentifier />
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="ManualMilestone">
+    <Position X="24.5" Y="66" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Nested Types" Collapsed="false" />
+    </Compartments>
+    <NestedTypes>
+      <Class Name="ManualMilestone.ManualData" Collapsed="true">
+        <TypeIdentifier />
+      </Class>
+      <Enum Name="ManualMilestone.Type" Collapsed="true">
+        <TypeIdentifier />
+      </Enum>
+    </NestedTypes>
+    <TypeIdentifier />
+  </Class>
+  <Class Name="MapEditorInfoViewsPanel" Collapsed="true">
+    <Position X="282.25" Y="34.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="MapEditorKeyShortcuts" Collapsed="true">
+    <Position X="16" Y="15" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="MapEditorMainToolbar" Collapsed="true">
+    <Position X="163" Y="35.75" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="MapMetaData" Collapsed="true">
+    <Position X="7.5" Y="24.75" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="MapSettingsGroupPanel" Collapsed="true">
+    <Position X="138.25" Y="41.75" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="MapSettingsPanel" Collapsed="true">
+    <Position X="199" Y="46.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="MathUtils" Collapsed="true">
+    <Position X="302.25" Y="6.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="MedicalCenterAI" Collapsed="true">
+    <Position X="88.75" Y="76" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="MegaRenderGroup">
+    <Position X="304" Y="6.5" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Nested Types" Collapsed="false" />
+    </Compartments>
+    <NestedTypes>
+      <Class Name="MegaRenderGroup.MeshLayer" Collapsed="true">
+        <TypeIdentifier />
+      </Class>
+    </NestedTypes>
+    <TypeIdentifier />
+  </Class>
+  <Class Name="MenuPanel" Collapsed="true">
+    <Position X="12.75" Y="17.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="MeshSimplification">
+    <Position X="305.75" Y="6.5" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Nested Types" Collapsed="false" />
+    </Compartments>
+    <NestedTypes>
+      <Class Name="MeshSimplification.SimplificationVolume" Collapsed="true">
+        <TypeIdentifier />
+      </Class>
+      <Enum Name="MeshSimplification.CellStatus" Collapsed="true">
+        <TypeIdentifier />
+      </Enum>
+      <Class Name="MeshSimplification.QuadTree" Collapsed="true">
+        <TypeIdentifier />
+      </Class>
+      <Class Name="MeshSimplification.SimplificationParameters" Collapsed="true">
+        <TypeIdentifier />
+      </Class>
+      <Delegate Name="MeshSimplification.ScoreCounter" Collapsed="true">
+        <TypeIdentifier />
+      </Delegate>
+      <Class Name="MeshSimplification.SimplificationWedge" Collapsed="true">
+        <TypeIdentifier />
+      </Class>
+      <Struct Name="MeshSimplification.SimplificationMesh" Collapsed="true">
+        <TypeIdentifier />
+      </Struct>
+      <Class Name="MeshSimplification.Grid3D" Collapsed="true">
+        <TypeIdentifier />
+      </Class>
+      <Class Name="MeshSimplification.SimplificationCube" Collapsed="true">
+        <TypeIdentifier />
+      </Class>
+    </NestedTypes>
+    <TypeIdentifier />
+  </Class>
+  <Class Name="MessageBase" Collapsed="true">
+    <Position X="1.75" Y="20.5" Width="1.5" />
+    <TypeIdentifier />
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="MessageController" Collapsed="true">
+    <Position X="307.5" Y="6.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="MessageInfo" Collapsed="true">
+    <Position X="309.25" Y="6.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="MessageManager">
+    <Position X="64.5" Y="2" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Nested Types" Collapsed="false" />
+    </Compartments>
+    <NestedTypes>
+      <Class Name="MessageManager.Data" Collapsed="true">
+        <TypeIdentifier />
+        <Lollipop Position="0.2" />
+      </Class>
+      <Struct Name="MessageManager.MessageData" Collapsed="true">
+        <TypeIdentifier />
+      </Struct>
+      <Delegate Name="MessageManager.NewMessageHandler" Collapsed="true">
+        <TypeIdentifier />
+      </Delegate>
+    </NestedTypes>
+    <TypeIdentifier />
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="MetaData" Collapsed="true">
+    <Position X="5.25" Y="23.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="MetroTrackAI" Collapsed="true">
+    <Position X="169.75" Y="52.75" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="MetroTrainAI" Collapsed="true">
+    <Position X="68.5" Y="54.25" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="MilestoneInfo">
+    <Position X="25.5" Y="56.5" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Nested Types" Collapsed="false" />
+    </Compartments>
+    <NestedTypes>
+      <Class Name="MilestoneInfo.Data" Collapsed="true">
+        <TypeIdentifier />
+        <Lollipop Position="0.2" />
+      </Class>
+      <Struct Name="MilestoneInfo.ProgressInfo" Collapsed="true">
+        <TypeIdentifier />
+      </Struct>
+    </NestedTypes>
+    <TypeIdentifier />
+  </Class>
+  <Class Name="MilestonesWrapper" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="311" Y="6.5" Width="1.5" />
+    <TypeIdentifier />
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="MonoTutorialTag" Collapsed="true">
+    <Position X="0.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier />
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="MonumentAI" Collapsed="true">
+    <Position X="79.75" Y="74.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="MonumentsGroupPanel">
+    <Position X="102.25" Y="41.75" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Nested Types" Collapsed="false" />
+    </Compartments>
+    <NestedTypes>
+      <Class Name="MonumentsGroupPanel.PTGroupInfo" Collapsed="true">
+        <TypeIdentifier />
+      </Class>
+    </NestedTypes>
+    <TypeIdentifier />
+  </Class>
+  <Class Name="MonumentsPanel" Collapsed="true">
+    <Position X="176.5" Y="46.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="MovementParticleEffect" Collapsed="true">
+    <Position X="36.75" Y="25.25" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="MultiAsyncTaskWrapper" Collapsed="true">
+    <Position X="12.75" Y="24.75" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="MultiEffect">
+    <Position X="30" Y="24" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Nested Types" Collapsed="false" />
+    </Compartments>
+    <NestedTypes>
+      <Struct Name="MultiEffect.SubEffect" Collapsed="true">
+        <TypeIdentifier />
+      </Struct>
+    </NestedTypes>
+    <TypeIdentifier />
+  </Class>
+  <Class Name="MusicFilter" Collapsed="true">
+    <Position X="312.75" Y="6.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="NaturalResourceManager">
+    <Position X="28.5" Y="2" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Nested Types" Collapsed="false" />
+    </Compartments>
+    <NestedTypes>
+      <Struct Name="NaturalResourceManager.AreaCell" Collapsed="true">
+        <TypeIdentifier />
+      </Struct>
+      <Class Name="NaturalResourceManager.Data" Collapsed="true">
+        <TypeIdentifier />
+        <Lollipop Position="0.2" />
+      </Class>
+      <Enum Name="NaturalResourceManager.ExtractedResource" Collapsed="true">
+        <TypeIdentifier />
+      </Enum>
+      <Enum Name="NaturalResourceManager.Resource" Collapsed="true">
+        <TypeIdentifier />
+      </Enum>
+      <Struct Name="NaturalResourceManager.ResourceCell" Collapsed="true">
+        <TypeIdentifier />
+      </Struct>
+    </NestedTypes>
+    <TypeIdentifier />
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="NaturalResourceProperties" Collapsed="true">
+    <Position X="314.5" Y="6.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="NaturalResourcesInfoViewPanel" Collapsed="true">
+    <Position X="253" Y="34.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="NetAI" Collapsed="true">
+    <Position X="151.75" Y="50" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="NetCollection" Collapsed="true">
+    <Position X="316.25" Y="6.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="NetInfo">
+    <Position X="48.5" Y="56" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Nested Types" Collapsed="false" />
+    </Compartments>
+    <NestedTypes>
+      <Enum Name="NetInfo.Direction" Collapsed="true">
+        <TypeIdentifier />
+      </Enum>
+      <Class Name="NetInfo.Lane" Collapsed="true">
+        <TypeIdentifier />
+      </Class>
+      <Enum Name="NetInfo.LaneType" Collapsed="true">
+        <TypeIdentifier />
+      </Enum>
+      <Class Name="NetInfo.Node" Collapsed="true">
+        <TypeIdentifier />
+      </Class>
+      <Class Name="NetInfo.Segment" Collapsed="true">
+        <TypeIdentifier />
+      </Class>
+    </NestedTypes>
+    <TypeIdentifier />
+  </Class>
+  <Class Name="NetLaneProps">
+    <Position X="318" Y="6.5" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Nested Types" Collapsed="false" />
+    </Compartments>
+    <NestedTypes>
+      <Enum Name="NetLaneProps.ColorMode" Collapsed="true">
+        <TypeIdentifier />
+      </Enum>
+      <Class Name="NetLaneProps.Prop" Collapsed="true">
+        <TypeIdentifier />
+      </Class>
+    </NestedTypes>
+    <TypeIdentifier />
+  </Class>
+  <Class Name="NetManager">
+    <Position X="46.5" Y="2" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Nested Types" Collapsed="false" />
+    </Compartments>
+    <NestedTypes>
+      <Class Name="NetManager.Data" Collapsed="true">
+        <TypeIdentifier />
+        <Lollipop Position="0.2" />
+      </Class>
+    </NestedTypes>
+    <TypeIdentifier />
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="NetNodeInstanceGuide">
+    <Position X="8" Y="61" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Nested Types" Collapsed="false" />
+    </Compartments>
+    <NestedTypes>
+      <Class Name="NetNodeInstanceGuide.NetNodeInstanceActivationInfo" Collapsed="true">
+        <TypeIdentifier />
+      </Class>
+    </NestedTypes>
+    <TypeIdentifier />
+  </Class>
+  <Class Name="NetNodeTutorialTag" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="319.75" Y="6.5" Width="1.5" />
+    <TypeIdentifier />
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="NetProperties" Collapsed="true">
+    <Position X="321.5" Y="6.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="NetSegmentInstanceGuide">
+    <Position X="12.5" Y="61" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Nested Types" Collapsed="false" />
+    </Compartments>
+    <NestedTypes>
+      <Class Name="NetSegmentInstanceGuide.NetSegmentInstanceActivationInfo" Collapsed="true">
+        <TypeIdentifier />
+      </Class>
+    </NestedTypes>
+    <TypeIdentifier />
+  </Class>
+  <Class Name="NetSegmentTutorialTag" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="300.5" Y="7.5" Width="1.5" />
+    <TypeIdentifier />
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="NetTool">
+    <Position X="33.5" Y="46.25" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Nested Types" Collapsed="false" />
+    </Compartments>
+    <NestedTypes>
+      <Struct Name="NetTool.ControlPoint" Collapsed="true">
+        <TypeIdentifier />
+      </Struct>
+      <Enum Name="NetTool.Mode" Collapsed="true">
+        <TypeIdentifier />
+      </Enum>
+      <Struct Name="NetTool.NodePosition" Collapsed="true">
+        <TypeIdentifier />
+      </Struct>
+    </NestedTypes>
+    <TypeIdentifier />
+  </Class>
+  <Class Name="NetTypeGuide">
+    <Position X="17" Y="61" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Nested Types" Collapsed="false" />
+    </Compartments>
+    <NestedTypes>
+      <Class Name="NetTypeGuide.NetTypeActivationInfo" Collapsed="true">
+        <TypeIdentifier />
+      </Class>
+    </NestedTypes>
+    <TypeIdentifier />
+  </Class>
+  <Class Name="NewAssetPanel" Collapsed="true">
+    <Position X="34.75" Y="34.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="NewGamePanel" Collapsed="true">
+    <Position X="19" Y="34.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="NewMapPanel" Collapsed="true">
+    <Position X="23.5" Y="34.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="NewsFeedPanel" Collapsed="true">
+    <Position X="302.25" Y="7.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="NoisePollutionInfoViewPanel" Collapsed="true">
+    <Position X="239.5" Y="34.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="NotificationManager">
+    <Position X="17.25" Y="2" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Nested Types" Collapsed="false" />
+    </Compartments>
+    <NestedTypes>
+      <Struct Name="NotificationManager.BufferedItem" Collapsed="true">
+        <TypeIdentifier />
+      </Struct>
+      <Struct Name="NotificationManager.GroupData" Collapsed="true">
+        <TypeIdentifier />
+      </Struct>
+      <Class Name="NotificationManager.ItemComparer" Collapsed="true">
+        <TypeIdentifier />
+        <Lollipop Position="0.2" />
+      </Class>
+    </NestedTypes>
+    <TypeIdentifier />
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="NotificationProperties" Collapsed="true">
+    <Position X="304" Y="7.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="OfficeBuildingAI" Collapsed="true">
+    <Position X="115.75" Y="74.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="OldestCitizenMilestone" Collapsed="true">
+    <Position X="22.25" Y="66" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="OptionsPanel" Collapsed="true">
+    <Position X="8.25" Y="19" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="OutsideConnectionAI" Collapsed="true">
+    <Position X="124.75" Y="71.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="OutsideConnectionsInfoViewPanel" Collapsed="true">
+    <Position X="255.25" Y="34.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="OverlayEffect" Collapsed="true">
+    <Position X="305.75" Y="7.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="PackageEntry" Collapsed="true">
+    <Position X="307.5" Y="7.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="PackageHelper" Collapsed="true">
+    <Position X="309.25" Y="7.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="ParadoxAccountCreate" Collapsed="true">
+    <Position X="19.5" Y="19" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="ParadoxAccountLogin" Collapsed="true">
+    <Position X="311" Y="7.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="ParadoxUnlockPanel" Collapsed="true">
+    <Position X="24" Y="19" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="ParamedicAI" Collapsed="true">
+    <Position X="185.5" Y="54.25" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="ParkAI" Collapsed="true">
+    <Position X="106.75" Y="74.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="ParticleEffect" Collapsed="true">
+    <Position X="36.75" Y="24" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="PassengerCarAI" Collapsed="true">
+    <Position X="59.5" Y="52.75" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="PassengerPlaneAI" Collapsed="true">
+    <Position X="43.75" Y="52.75" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="PassengerShipAI" Collapsed="true">
+    <Position X="73" Y="52.75" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="PassengerTrainAI" Collapsed="true">
+    <Position X="68.5" Y="52.75" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="PathFind" Collapsed="true">
+    <Position X="312.75" Y="7.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="PathManager">
+    <Position X="71.25" Y="2" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Nested Types" Collapsed="false" />
+    </Compartments>
+    <NestedTypes>
+      <Class Name="PathManager.Data" Collapsed="true">
+        <TypeIdentifier />
+        <Lollipop Position="0.2" />
+      </Class>
+    </NestedTypes>
+    <TypeIdentifier />
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="PathProperties" Collapsed="true">
+    <Position X="314.5" Y="7.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="PauseMenu" Collapsed="true">
+    <Position X="1.5" Y="19" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="PedestrianBridgeAI" Collapsed="true">
+    <Position X="145" Y="52.75" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="PedestrianPathAI" Collapsed="true">
+    <Position X="147.25" Y="52.75" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="PetAI" Collapsed="true">
+    <Position X="174.25" Y="52.75" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="PlasmaballAnim" Collapsed="true">
+    <Position X="316.25" Y="7.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="PlayerBuildingAI" Collapsed="true">
+    <Position X="94.5" Y="73" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="PlayerNetAI" Collapsed="true">
+    <Position X="153" Y="51.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="PoliceCarAI" Collapsed="true">
+    <Position X="52.75" Y="52.75" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="PoliceGroupPanel" Collapsed="true">
+    <Position X="120.25" Y="41.75" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="PoliceOfficerAI" Collapsed="true">
+    <Position X="183.25" Y="54.25" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="PolicePanel" Collapsed="true">
+    <Position X="190" Y="46.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="PoliceStationAI" Collapsed="true">
+    <Position X="93.25" Y="74.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="PoliciesPanel">
+    <Position X="57.25" Y="33" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Nested Types" Collapsed="false" />
+    </Compartments>
+    <NestedTypes>
+      <Enum Name="PoliciesPanel.DockingPosition" Collapsed="true">
+        <TypeIdentifier />
+      </Enum>
+    </NestedTypes>
+    <TypeIdentifier />
+  </Class>
+  <Class Name="PolicyContainer" Collapsed="true">
+    <Position X="88.75" Y="33" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="PollutionInfoViewPanel" Collapsed="true">
+    <Position X="262" Y="34.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="PopulationInfoViewPanel" Collapsed="true">
+    <Position X="266.5" Y="34.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="PopulationMilestone" Collapsed="true">
+    <Position X="29" Y="66" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="PowerLineAI" Collapsed="true">
+    <Position X="154" Y="52.75" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="PowerPlantAI" Collapsed="true">
+    <Position X="102.25" Y="74.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="PowerPoleAI" Collapsed="true">
+    <Position X="127" Y="71.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="PrefabAI" Collapsed="true">
+    <Position X="118" Y="48.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="PrefabCollection&lt;T&gt;" Collapsed="true">
+    <Position X="318" Y="7.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="PrefabException" Collapsed="true">
+    <Position X="319.75" Y="7.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="PrefabInfo" Collapsed="true">
+    <Position X="46.25" Y="54.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="PrefabPool" Collapsed="true">
+    <Position X="321.5" Y="7.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="PreviewCamera">
+    <Position X="300.5" Y="8.5" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Nested Types" Collapsed="false" />
+    </Compartments>
+    <NestedTypes>
+      <Class Name="PreviewCamera.InfoRenderer" Collapsed="true">
+        <TypeIdentifier />
+      </Class>
+    </NestedTypes>
+    <TypeIdentifier />
+  </Class>
+  <Class Name="PrivateBuildingAI" Collapsed="true">
+    <Position X="118" Y="73" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="PropCollection" Collapsed="true">
+    <Position X="302.25" Y="8.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="PropInfo">
+    <Position X="37.25" Y="56" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Nested Types" Collapsed="false" />
+    </Compartments>
+    <NestedTypes>
+      <Enum Name="PropInfo.DoorType" Collapsed="true">
+        <TypeIdentifier />
+      </Enum>
+      <Struct Name="PropInfo.Effect" Collapsed="true">
+        <TypeIdentifier />
+      </Struct>
+      <Struct Name="PropInfo.ParkingSpace" Collapsed="true">
+        <TypeIdentifier />
+      </Struct>
+      <Struct Name="PropInfo.SpecialPlace" Collapsed="true">
+        <TypeIdentifier />
+      </Struct>
+      <Struct Name="PropInfo.Variation" Collapsed="true">
+        <TypeIdentifier />
+      </Struct>
+    </NestedTypes>
+    <TypeIdentifier />
+  </Class>
+  <Class Name="PropInfoGen" Collapsed="true">
+    <Position X="304" Y="8.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="PropManager">
+    <Position X="8.25" Y="2" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Nested Types" Collapsed="false" />
+    </Compartments>
+    <NestedTypes>
+      <Class Name="PropManager.Data" Collapsed="true">
+        <TypeIdentifier />
+        <Lollipop Position="0.2" />
+      </Class>
+    </NestedTypes>
+    <TypeIdentifier />
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="PropProperties" Collapsed="true">
+    <Position X="305.75" Y="8.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="PropsBillboardsGroupPanel" Collapsed="true">
+    <Position X="106.75" Y="41.75" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="PropsCommonGroupPanel" Collapsed="true">
+    <Position X="109" Y="41.75" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="PropsIndustrialGroupPanel" Collapsed="true">
+    <Position X="111.25" Y="41.75" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="PropsMarkersGroupPanel" Collapsed="true">
+    <Position X="118" Y="41.75" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="PropsPanel" Collapsed="true">
+    <Position X="185.5" Y="46.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="PropsParksGroupPanel" Collapsed="true">
+    <Position X="122.5" Y="41.75" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="PropsResidentialGroupPanel" Collapsed="true">
+    <Position X="124.75" Y="41.75" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="PropsSpecialBillboardsGroupPanel" Collapsed="true">
+    <Position X="129.25" Y="41.75" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="PropTool">
+    <Position X="17.75" Y="46.25" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Nested Types" Collapsed="false" />
+    </Compartments>
+    <NestedTypes>
+      <Enum Name="PropTool.Mode" Collapsed="true">
+        <TypeIdentifier />
+      </Enum>
+    </NestedTypes>
+    <TypeIdentifier />
+  </Class>
+  <Class Name="PublicTransportGroupPanel">
+    <Position X="136" Y="41.75" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Nested Types" Collapsed="false" />
+    </Compartments>
+    <NestedTypes>
+      <Class Name="PublicTransportGroupPanel.PTGroupInfo" Collapsed="true">
+        <TypeIdentifier />
+      </Class>
+    </NestedTypes>
+    <TypeIdentifier />
+  </Class>
+  <Class Name="PublicTransportInfoViewPanel" Collapsed="true">
+    <Position X="264.25" Y="34.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="PublicTransportPanel" Collapsed="true">
+    <Position X="201.25" Y="46.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="PublicTransportVehicleWorldInfoPanel" Collapsed="true">
+    <Position X="59.5" Y="35.75" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="PublicTransportWorldInfoPanel" Collapsed="true">
+    <Position X="68.5" Y="34.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="RenderGroup">
+    <Position X="307.5" Y="8.5" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Nested Types" Collapsed="false" />
+    </Compartments>
+    <NestedTypes>
+      <Class Name="RenderGroup.MeshData" Collapsed="true">
+        <TypeIdentifier />
+      </Class>
+      <Class Name="RenderGroup.MeshLayer" Collapsed="true">
+        <TypeIdentifier />
+      </Class>
+      <Enum Name="RenderGroup.VertexArrays" Collapsed="true">
+        <TypeIdentifier />
+      </Enum>
+    </NestedTypes>
+    <TypeIdentifier />
+  </Class>
+  <Class Name="RenderManager">
+    <Position X="53.25" Y="2" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Nested Types" Collapsed="false" />
+    </Compartments>
+    <NestedTypes>
+      <Class Name="RenderManager.CameraInfo" Collapsed="true">
+        <TypeIdentifier />
+      </Class>
+      <Struct Name="RenderManager.Instance" Collapsed="true">
+        <TypeIdentifier />
+      </Struct>
+    </NestedTypes>
+    <TypeIdentifier />
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="RenderProperties" Collapsed="true">
+    <Position X="309.25" Y="8.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="ResetWaterOptionPanel" Collapsed="true">
+    <Position X="289" Y="33" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="ResidentAI" Collapsed="true">
+    <Position X="192.25" Y="52.75" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="ResidentialBuildingAI" Collapsed="true">
+    <Position X="122.5" Y="74.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="ResourceGroupPanel" Collapsed="true">
+    <Position X="154" Y="41.75" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="ResourcePanel" Collapsed="true">
+    <Position X="217" Y="46.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="ResourceTool" Collapsed="true">
+    <Position X="35.75" Y="46.25" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="RoadAI" Collapsed="true">
+    <Position X="138.25" Y="62.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="RoadBaseAI">
+    <Position X="140.5" Y="52.75" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Nested Types" Collapsed="false" />
+    </Compartments>
+    <NestedTypes>
+      <Enum Name="RoadBaseAI.TrafficLightState" Collapsed="true">
+        <TypeIdentifier />
+      </Enum>
+    </NestedTypes>
+    <TypeIdentifier />
+  </Class>
+  <Class Name="RoadBridgeAI" Collapsed="true">
+    <Position X="140.5" Y="62.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="RoadsGroupPanel" Collapsed="true">
+    <Position X="100" Y="41.75" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="RoadsOptionPanel" Collapsed="true">
+    <Position X="39.25" Y="33" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="RoadsPanel" Collapsed="true">
+    <Position X="178.75" Y="46.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="RuntimeMeshUtils" Collapsed="true">
+    <Position X="311" Y="8.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="RunwayAI" Collapsed="true">
+    <Position X="151.75" Y="52.75" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="SaveAssetPanel" Collapsed="true">
+    <Position X="25.75" Y="34.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="SaveGameMetaData" Collapsed="true">
+    <Position X="3" Y="24.75" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="SaveHelper" Collapsed="true">
+    <Position X="312.75" Y="8.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="SaveMapPanel" Collapsed="true">
+    <Position X="28" Y="34.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="SavePanel" Collapsed="true">
+    <Position X="30.25" Y="34.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="ScaleButtonOnMouseHover" Collapsed="true">
+    <Position X="314.5" Y="8.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="SchoolAI" Collapsed="true">
+    <Position X="95.5" Y="74.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="SeaHeightOptionPanel" Collapsed="true">
+    <Position X="91" Y="33" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="SearchTexture" Collapsed="true">
+    <Position X="316.25" Y="8.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="SerializableDataWrapper" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="318" Y="8.5" Width="1.5" />
+    <TypeIdentifier />
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="ServicePersonAI" Collapsed="true">
+    <Position X="184.5" Y="52.75" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="ServicePersonWorldInfoPanel" Collapsed="true">
+    <Position X="79.75" Y="35.75" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="ServiceTypeGuide">
+    <Position X="10.25" Y="61" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Nested Types" Collapsed="false" />
+    </Compartments>
+    <NestedTypes>
+      <Class Name="ServiceTypeGuide.ServiceTypeActivationInfo" Collapsed="true">
+        <TypeIdentifier />
+      </Class>
+    </NestedTypes>
+    <TypeIdentifier />
+  </Class>
+  <Class Name="SetAudioManager" Collapsed="true">
+    <Position X="319.75" Y="8.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="Settings" Collapsed="true">
+    <Position X="321.5" Y="8.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="ShipAI" Collapsed="true">
+    <Position X="72" Y="51.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="ShipDockAI" Collapsed="true">
+    <Position X="158.5" Y="52.75" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="ShipPathAI" Collapsed="true">
+    <Position X="165.25" Y="52.75" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="ShipTrailParticleEffect" Collapsed="true">
+    <Position X="36.75" Y="26.75" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="SimulationManager">
+    <Position X="300.5" Y="9.5" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Nested Types" Collapsed="false" />
+    </Compartments>
+    <NestedTypes>
+      <Class Name="SimulationManager.Data" Collapsed="true">
+        <TypeIdentifier />
+        <Lollipop Position="0.2" />
+      </Class>
+      <Enum Name="SimulationManager.UpdateMode" Collapsed="true">
+        <TypeIdentifier />
+      </Enum>
+      <Struct Name="SimulationManager.ViewData" Collapsed="true">
+        <TypeIdentifier />
+      </Struct>
+    </NestedTypes>
+    <TypeIdentifier />
+  </Class>
+  <Class Name="SimulationManagerBase&lt;Manager, Properties&gt;" Collapsed="true">
+    <Position X="37.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="SimulationMetaData" BaseTypeListCollapsed="true">
+    <Position X="302.25" Y="9.5" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Nested Types" Collapsed="false" />
+    </Compartments>
+    <NestedTypes>
+      <Enum Name="SimulationMetaData.MetaBool" Collapsed="true">
+        <TypeIdentifier />
+      </Enum>
+    </NestedTypes>
+    <TypeIdentifier />
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="SMAA" Collapsed="true">
+    <Position X="304" Y="9.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="SnapshotTool" Collapsed="true">
+    <Position X="6.5" Y="46.25" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="SoundEffect" Collapsed="true">
+    <Position X="27.75" Y="24" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="SpaceElevatorAI" Collapsed="true">
+    <Position X="82" Y="74.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="StagingException" Collapsed="true">
+    <Position X="305.75" Y="9.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="Starter" Collapsed="true">
+    <Position X="307.5" Y="9.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="StatisticArray" Collapsed="true">
+    <Position X="0.75" Y="14.75" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="StatisticBase" Collapsed="true">
+    <Position X="3" Y="13.5" Width="1.5" />
+    <TypeIdentifier />
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="StatisticInt32" Collapsed="true">
+    <Position X="3" Y="14.75" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="StatisticInt64" Collapsed="true">
+    <Position X="5.25" Y="14.75" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="StatisticMilestone" Collapsed="true">
+    <Position X="26.75" Y="66" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="StatisticsManager">
+    <Position X="30.75" Y="2" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Nested Types" Collapsed="false" />
+    </Compartments>
+    <NestedTypes>
+      <Class Name="StatisticsManager.Data" Collapsed="true">
+        <TypeIdentifier />
+        <Lollipop Position="0.2" />
+      </Class>
+    </NestedTypes>
+    <TypeIdentifier />
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="StatisticsPanel" Collapsed="true">
+    <Position X="10.5" Y="19" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="StatisticsProperties" Collapsed="true">
+    <Position X="309.25" Y="9.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="StringUtils" Collapsed="true">
+    <Position X="311" Y="9.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="SurfaceGroupPanel" Collapsed="true">
+    <Position X="142.75" Y="41.75" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="SurfacePanel" Collapsed="true">
+    <Position X="205.75" Y="46.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="SurfaceTool" Collapsed="true">
+    <Position X="26.75" Y="46.25" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="SystemMapMetaData" Collapsed="true">
+    <Position X="9.75" Y="24.75" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="TaxiwayAI" Collapsed="true">
+    <Position X="156.25" Y="52.75" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="TaxMilestone" Collapsed="true">
+    <Position X="31.25" Y="66" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="TelemetryManager" Collapsed="true">
+    <Position X="312.75" Y="9.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="TerrainArea" Collapsed="true">
+    <Position X="314.5" Y="9.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="TerrainGroupPanel" Collapsed="true">
+    <Position X="151.75" Y="41.75" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="TerrainManager">
+    <Position X="66.75" Y="2" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Nested Types" Collapsed="false" />
+    </Compartments>
+    <NestedTypes>
+      <Class Name="TerrainManager.Data" Collapsed="true">
+        <TypeIdentifier />
+        <Lollipop Position="0.2" />
+      </Class>
+      <Struct Name="TerrainManager.SurfaceCell" Collapsed="true">
+        <TypeIdentifier />
+      </Struct>
+      <Struct Name="TerrainManager.ZoneCell" Collapsed="true">
+        <TypeIdentifier />
+      </Struct>
+    </NestedTypes>
+    <TypeIdentifier />
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="TerrainMesh">
+    <Position X="316.25" Y="9.5" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Nested Types" Collapsed="false" />
+    </Compartments>
+    <NestedTypes>
+      <Enum Name="TerrainMesh.Flags" Collapsed="true">
+        <TypeIdentifier />
+      </Enum>
+    </NestedTypes>
+    <TypeIdentifier />
+  </Class>
+  <Class Name="TerrainModify">
+    <Position X="318" Y="9.5" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Nested Types" Collapsed="false" />
+    </Compartments>
+    <NestedTypes>
+      <Enum Name="TerrainModify.Edges" Collapsed="true">
+        <TypeIdentifier />
+      </Enum>
+      <Struct Name="TerrainModify.HeightModification" Collapsed="true">
+        <TypeIdentifier />
+      </Struct>
+      <Enum Name="TerrainModify.Heights" Collapsed="true">
+        <TypeIdentifier />
+      </Enum>
+      <Enum Name="TerrainModify.Surface" Collapsed="true">
+        <TypeIdentifier />
+      </Enum>
+      <Struct Name="TerrainModify.ZoneModification" Collapsed="true">
+        <TypeIdentifier />
+      </Struct>
+    </NestedTypes>
+    <TypeIdentifier />
+  </Class>
+  <Class Name="TerrainPanel" Collapsed="true">
+    <Position X="165.25" Y="46.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="TerrainPatch" Collapsed="true">
+    <Position X="319.75" Y="9.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="TerrainProperties" Collapsed="true">
+    <Position X="321.5" Y="9.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="TerrainTool">
+    <Position X="8.75" Y="46.25" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Nested Types" Collapsed="false" />
+    </Compartments>
+    <NestedTypes>
+      <Enum Name="TerrainTool.Mode" Collapsed="true">
+        <TypeIdentifier />
+      </Enum>
+    </NestedTypes>
+    <TypeIdentifier />
+  </Class>
+  <Class Name="TerrainWrapper" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="300.5" Y="10.5" Width="1.5" />
+    <TypeIdentifier />
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="TestBindEvent" Collapsed="true">
+    <Position X="302.25" Y="10.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="TestBindEvent2" Collapsed="true">
+    <Position X="304" Y="10.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="TextureChannelCombiner" Collapsed="true">
+    <Position X="305.75" Y="10.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="Texturescroll" Collapsed="true">
+    <Position X="307.5" Y="10.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="ThreadingWrapper" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="309.25" Y="10.5" Width="1.5" />
+    <TypeIdentifier />
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="ThreadProfiler" Collapsed="true">
+    <Position X="311" Y="10.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="TiltShiftEffect">
+    <Position X="312.75" Y="10.5" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Nested Types" Collapsed="false" />
+    </Compartments>
+    <NestedTypes>
+      <Enum Name="TiltShiftEffect.TiltShiftMode" Collapsed="true">
+        <TypeIdentifier />
+      </Enum>
+      <Enum Name="TiltShiftEffect.TiltShiftQuality" Collapsed="true">
+        <TypeIdentifier />
+      </Enum>
+    </NestedTypes>
+    <TypeIdentifier />
+  </Class>
+  <Class Name="TimerConfirmPanel" Collapsed="true">
+    <Position X="6" Y="20.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="ToolBase">
+    <Position X="19" Y="35.5" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Nested Types" Collapsed="false" />
+    </Compartments>
+    <NestedTypes>
+      <Struct Name="ToolBase.RaycastInput" Collapsed="true">
+        <TypeIdentifier />
+      </Struct>
+      <Struct Name="ToolBase.RaycastOutput" Collapsed="true">
+        <TypeIdentifier />
+      </Struct>
+      <Struct Name="ToolBase.RaycastService" Collapsed="true">
+        <TypeIdentifier />
+      </Struct>
+      <Enum Name="ToolBase.ToolErrors" Collapsed="true">
+        <TypeIdentifier />
+      </Enum>
+    </NestedTypes>
+    <TypeIdentifier />
+  </Class>
+  <Class Name="ToolController">
+    <Position X="314.5" Y="10.5" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Nested Types" Collapsed="false" />
+    </Compartments>
+    <NestedTypes>
+      <Delegate Name="ToolController.EditPrefabChanged" Collapsed="true">
+        <TypeIdentifier />
+      </Delegate>
+    </NestedTypes>
+    <TypeIdentifier />
+  </Class>
+  <Class Name="ToolManager" Collapsed="true">
+    <Position X="39.75" Y="2" Width="1.5" />
+    <TypeIdentifier />
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="ToolsMenu" Collapsed="true">
+    <Position X="21.75" Y="19" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="ToolsModifierControl" Collapsed="true">
+    <Position X="156.25" Y="31.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="TouristAI" Collapsed="true">
+    <Position X="190" Y="52.75" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="TouristVehicleWorldInfoPanel" Collapsed="true">
+    <Position X="61.75" Y="35.75" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="TouristWorldInfoPanel" Collapsed="true">
+    <Position X="75.25" Y="37.25" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="TrafficInfoViewPanel" Collapsed="true">
+    <Position X="271" Y="34.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="TrainAI" Collapsed="true">
+    <Position X="67.5" Y="51.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="TrainTrackAI" Collapsed="true">
+    <Position X="160.75" Y="54.25" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="TrainTrackBaseAI" Collapsed="true">
+    <Position X="162" Y="52.75" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="TrainTrackBridgeAI" Collapsed="true">
+    <Position X="163" Y="54.25" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="TransferManager">
+    <Position X="69" Y="2" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Nested Types" Collapsed="false" />
+    </Compartments>
+    <NestedTypes>
+      <Class Name="TransferManager.Data" Collapsed="true">
+        <TypeIdentifier />
+        <Lollipop Position="0.2" />
+      </Class>
+      <Struct Name="TransferManager.TransferOffer" Collapsed="true">
+        <TypeIdentifier />
+      </Struct>
+      <Enum Name="TransferManager.TransferReason" Collapsed="true">
+        <TypeIdentifier />
+      </Enum>
+    </NestedTypes>
+    <TypeIdentifier />
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="TransferProperties" Collapsed="true">
+    <Position X="316.25" Y="10.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="TransportCollection" Collapsed="true">
+    <Position X="318" Y="10.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="TransportInfo">
+    <Position X="39.5" Y="56" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Nested Types" Collapsed="false" />
+    </Compartments>
+    <NestedTypes>
+      <Enum Name="TransportInfo.TransportType" Collapsed="true">
+        <TypeIdentifier />
+      </Enum>
+    </NestedTypes>
+    <TypeIdentifier />
+  </Class>
+  <Class Name="TransportLineAI" Collapsed="true">
+    <Position X="133.75" Y="51.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="TransportManager">
+    <Position X="10.5" Y="2" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Nested Types" Collapsed="false" />
+    </Compartments>
+    <NestedTypes>
+      <Class Name="TransportManager.Data" Collapsed="true">
+        <TypeIdentifier />
+        <Lollipop Position="0.2" />
+      </Class>
+      <Struct Name="TransportManager.LineSegment" Collapsed="true">
+        <TypeIdentifier />
+      </Struct>
+    </NestedTypes>
+    <TypeIdentifier />
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="TransportPatch" Collapsed="true">
+    <Position X="319.75" Y="10.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="TransportProperties" Collapsed="true">
+    <Position X="321.5" Y="10.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="TransportStationAI" Collapsed="true">
+    <Position X="77.5" Y="84.75" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="TransportTool" Collapsed="true">
+    <Position X="11" Y="46.25" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="TreeCollection" Collapsed="true">
+    <Position X="300.5" Y="11.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="TreeInfo">
+    <Position X="46.25" Y="56" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Nested Types" Collapsed="false" />
+    </Compartments>
+    <NestedTypes>
+      <Class Name="TreeInfo.Variation" Collapsed="true">
+        <TypeIdentifier />
+      </Class>
+    </NestedTypes>
+    <TypeIdentifier />
+  </Class>
+  <Class Name="TreeInfoGen" Collapsed="true">
+    <Position X="302.25" Y="11.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="TreeManager">
+    <Position X="37.5" Y="2" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Nested Types" Collapsed="false" />
+    </Compartments>
+    <NestedTypes>
+      <Class Name="TreeManager.Data" Collapsed="true">
+        <TypeIdentifier />
+        <Lollipop Position="0.2" />
+      </Class>
+    </NestedTypes>
+    <TypeIdentifier />
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="TreeProperties" Collapsed="true">
+    <Position X="304" Y="11.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="TreeTool">
+    <Position X="20" Y="46.25" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Nested Types" Collapsed="false" />
+    </Compartments>
+    <NestedTypes>
+      <Enum Name="TreeTool.Mode" Collapsed="true">
+        <TypeIdentifier />
+      </Enum>
+    </NestedTypes>
+    <TypeIdentifier />
+  </Class>
+  <Class Name="TutorialAdvisorPanel" Collapsed="true">
+    <Position X="305.75" Y="11.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="TutorialPanel" Collapsed="true">
+    <Position X="307.5" Y="11.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="TutorialUITag" Collapsed="true">
+    <Position X="0.5" Y="2" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="UICategoryAttribute" Collapsed="true">
+    <Position X="309.25" Y="11.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="UICurrencyDeltaWrapper" Collapsed="true">
+    <Position X="10" Y="21.75" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="UICurrencyWrapper" Collapsed="true">
+    <Position X="12.25" Y="21.75" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="UIDateTimeWrapper" Collapsed="true">
+    <Position X="14.5" Y="21.75" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="UIEditorCategoryAttribute" Collapsed="true">
+    <Position X="311" Y="11.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="UIHappinessWrapper" Collapsed="true">
+    <Position X="16.75" Y="21.75" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="UIPopulationDeltaWrapper" Collapsed="true">
+    <Position X="19" Y="21.75" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="UIPopulationWrapper" Collapsed="true">
+    <Position X="21.25" Y="21.75" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="UIWrapper&lt;T&gt;" Collapsed="true">
+    <Position X="15.5" Y="20.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="UndergroundView" Collapsed="true">
+    <Position X="312.75" Y="11.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="UndoTerrainOptionPanel" Collapsed="true">
+    <Position X="14.5" Y="33" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="UnlockController" Collapsed="true">
+    <Position X="314.5" Y="11.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="UnlockingPanel" Collapsed="true">
+    <Position X="37" Y="33" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="UnlockManager">
+    <Position X="12.75" Y="2" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Nested Types" Collapsed="false" />
+    </Compartments>
+    <NestedTypes>
+      <Class Name="UnlockManager.Data" Collapsed="true">
+        <TypeIdentifier />
+        <Lollipop Position="0.2" />
+      </Class>
+      <Enum Name="UnlockManager.Feature" Collapsed="true">
+        <TypeIdentifier />
+      </Enum>
+    </NestedTypes>
+    <TypeIdentifier />
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="UserAssetType" Collapsed="true">
+    <Position X="316.25" Y="11.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="VehicleAI" Collapsed="true">
+    <Position X="58.5" Y="50" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="VehicleCollection" Collapsed="true">
+    <Position X="318" Y="11.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="VehicleInfo">
+    <Position X="41.75" Y="57.5" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Nested Types" Collapsed="false" />
+    </Compartments>
+    <NestedTypes>
+      <Enum Name="VehicleInfo.DoorType" Collapsed="true">
+        <TypeIdentifier />
+      </Enum>
+      <Struct Name="VehicleInfo.Effect" Collapsed="true">
+        <TypeIdentifier />
+      </Struct>
+      <Class Name="VehicleInfo.MeshInfo" Collapsed="true">
+        <TypeIdentifier />
+      </Class>
+      <Struct Name="VehicleInfo.VehicleDoor" Collapsed="true">
+        <TypeIdentifier />
+      </Struct>
+      <Struct Name="VehicleInfo.VehicleTrailer" Collapsed="true">
+        <TypeIdentifier />
+      </Struct>
+      <Enum Name="VehicleInfo.VehicleType" Collapsed="true">
+        <TypeIdentifier />
+      </Enum>
+    </NestedTypes>
+    <TypeIdentifier />
+  </Class>
+  <Class Name="VehicleInfoBase" Collapsed="true">
+    <Position X="43" Y="56" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="VehicleInfoGen" Collapsed="true">
+    <Position X="319.75" Y="11.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="VehicleInfoSub" Collapsed="true">
+    <Position X="44" Y="57.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="VehicleManager">
+    <Position X="33" Y="2" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Nested Types" Collapsed="false" />
+    </Compartments>
+    <NestedTypes>
+      <Class Name="VehicleManager.Data" Collapsed="true">
+        <TypeIdentifier />
+        <Lollipop Position="0.2" />
+      </Class>
+    </NestedTypes>
+    <TypeIdentifier />
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="VehicleProperties" Collapsed="true">
+    <Position X="321.5" Y="11.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="VehicleWorldInfoPanel" Collapsed="true">
+    <Position X="63" Y="34.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="WaterAndSewageGroupPanel" Collapsed="true">
+    <Position X="140.5" Y="41.75" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="WaterAndSewagePanel" Collapsed="true">
+    <Position X="203.5" Y="46.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="WaterFacilityAI" Collapsed="true">
+    <Position X="97.75" Y="74.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="WaterGroupPanel" Collapsed="true">
+    <Position X="147.25" Y="41.75" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="WaterInfoViewPanel" Collapsed="true">
+    <Position X="268.75" Y="34.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="WaterJunctionAI" Collapsed="true">
+    <Position X="129.25" Y="71.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="WaterManager">
+    <Position X="57.75" Y="2" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Nested Types" Collapsed="false" />
+    </Compartments>
+    <NestedTypes>
+      <Class Name="WaterManager.Data" Collapsed="true">
+        <TypeIdentifier />
+        <Lollipop Position="0.2" />
+      </Class>
+      <Struct Name="WaterManager.Node" Collapsed="true">
+        <TypeIdentifier />
+      </Struct>
+    </NestedTypes>
+    <TypeIdentifier />
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="WaterOptionPanel" Collapsed="true">
+    <Position X="291.25" Y="33" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="WaterPanel" Collapsed="true">
+    <Position X="212.5" Y="46.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="WaterPipeAI" Collapsed="true">
+    <Position X="167.5" Y="52.75" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="WaterProperties" Collapsed="true">
+    <Position X="300.5" Y="12.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="WaterSimulation">
+    <Position X="302.25" Y="12.5" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Nested Types" Collapsed="false" />
+    </Compartments>
+    <NestedTypes>
+      <Struct Name="WaterSimulation.Cell" Collapsed="true">
+        <TypeIdentifier />
+      </Struct>
+      <Class Name="WaterSimulation.Data" Collapsed="true">
+        <TypeIdentifier />
+        <Lollipop Position="0.2" />
+      </Class>
+      <Enum Name="WaterSimulation.Status" Collapsed="true">
+        <TypeIdentifier />
+      </Enum>
+    </NestedTypes>
+    <TypeIdentifier />
+  </Class>
+  <Class Name="WaterTool">
+    <Position X="2" Y="46.25" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Nested Types" Collapsed="false" />
+    </Compartments>
+    <NestedTypes>
+      <Enum Name="WaterTool.Mode" Collapsed="true">
+        <TypeIdentifier />
+      </Enum>
+    </NestedTypes>
+    <TypeIdentifier />
+  </Class>
+  <Class Name="WildlifeAI" Collapsed="true">
+    <Position X="172" Y="52.75" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="WildlifeSpawnPointAI" Collapsed="true">
+    <Position X="75.25" Y="71.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="WindInfoViewPanel" Collapsed="true">
+    <Position X="241.75" Y="34.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="WindManager">
+    <Position X="15" Y="2" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Nested Types" Collapsed="false" />
+    </Compartments>
+    <NestedTypes>
+      <Class Name="WindManager.Data" Collapsed="true">
+        <TypeIdentifier />
+        <Lollipop Position="0.2" />
+      </Class>
+      <Struct Name="WindManager.WindCell" Collapsed="true">
+        <TypeIdentifier />
+      </Struct>
+    </NestedTypes>
+    <TypeIdentifier />
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="WindProperties" Collapsed="true">
+    <Position X="304" Y="12.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="WindTurbineAI" Collapsed="true">
+    <Position X="102.25" Y="76" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="WondersGroupPanel" Collapsed="true">
+    <Position X="113.5" Y="41.75" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="WondersPanel" Collapsed="true">
+    <Position X="183.25" Y="46.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="WorkshopAdPanel" Collapsed="true">
+    <Position X="305.75" Y="12.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="WorkshopAssetUploadPanel" Collapsed="true">
+    <Position X="307.5" Y="12.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="WorkshopHelper" Collapsed="true">
+    <Position X="309.25" Y="12.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="WorkshopModUploadPanel" Collapsed="true">
+    <Position X="311" Y="12.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="WorldInfoPanel" Collapsed="true">
+    <Position X="72" Y="33" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="ZonedBuildingWorldInfoPanel" Collapsed="true">
+    <Position X="84.25" Y="35.75" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="ZoneManager">
+    <Position X="42" Y="2" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Nested Types" Collapsed="false" />
+    </Compartments>
+    <NestedTypes>
+      <Class Name="ZoneManager.Data" Collapsed="true">
+        <TypeIdentifier />
+        <Lollipop Position="0.2" />
+      </Class>
+    </NestedTypes>
+    <TypeIdentifier />
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="ZoneProperties" Collapsed="true">
+    <Position X="312.75" Y="12.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="ZoneTool">
+    <Position X="24.5" Y="46.25" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Nested Types" Collapsed="false" />
+    </Compartments>
+    <NestedTypes>
+      <Enum Name="ZoneTool.Mode" Collapsed="true">
+        <TypeIdentifier />
+      </Enum>
+    </NestedTypes>
+    <TypeIdentifier />
+  </Class>
+  <Class Name="ZoneTypeGuide">
+    <Position X="3.5" Y="61" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Nested Types" Collapsed="false" />
+    </Compartments>
+    <NestedTypes>
+      <Class Name="ZoneTypeGuide.ZoneTypeActivationInfo" Collapsed="true">
+        <TypeIdentifier />
+      </Class>
+    </NestedTypes>
+    <TypeIdentifier />
+  </Class>
+  <Class Name="ZoningGroupPanel" Collapsed="true">
+    <Position X="149.5" Y="41.75" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="ZoningOptionPanel" Collapsed="true">
+    <Position X="277.75" Y="33" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="ZoningPanel" Collapsed="true">
+    <Position X="210.25" Y="46.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="ZoomButton" Collapsed="true">
+    <Position X="293.5" Y="33" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Struct Name="Building">
+    <Position X="300.5" Y="13.75" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Nested Types" Collapsed="false" />
+    </Compartments>
+    <NestedTypes>
+      <Enum Name="Building.Flags" Collapsed="true">
+        <TypeIdentifier />
+      </Enum>
+      <Struct Name="Building.Frame" Collapsed="true">
+        <TypeIdentifier />
+      </Struct>
+    </NestedTypes>
+    <TypeIdentifier />
+  </Struct>
+  <Struct Name="Citizen">
+    <Position X="302.25" Y="13.75" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Nested Types" Collapsed="false" />
+    </Compartments>
+    <NestedTypes>
+      <Enum Name="Citizen.Gender" Collapsed="true">
+        <TypeIdentifier />
+      </Enum>
+      <Enum Name="Citizen.Happiness" Collapsed="true">
+        <TypeIdentifier />
+      </Enum>
+      <Enum Name="Citizen.Health" Collapsed="true">
+        <TypeIdentifier />
+      </Enum>
+      <Enum Name="Citizen.Wellbeing" Collapsed="true">
+        <TypeIdentifier />
+      </Enum>
+      <Enum Name="Citizen.Education" Collapsed="true">
+        <TypeIdentifier />
+      </Enum>
+      <Enum Name="Citizen.Wealth" Collapsed="true">
+        <TypeIdentifier />
+      </Enum>
+      <Enum Name="Citizen.Location" Collapsed="true">
+        <TypeIdentifier />
+      </Enum>
+      <Enum Name="Citizen.Flags" Collapsed="true">
+        <TypeIdentifier />
+      </Enum>
+      <Enum Name="Citizen.AgePhase" Collapsed="true">
+        <TypeIdentifier />
+      </Enum>
+      <Enum Name="Citizen.AgeGroup" Collapsed="true">
+        <TypeIdentifier />
+      </Enum>
+      <Struct Name="Citizen.BehaviourData" Collapsed="true">
+        <TypeIdentifier />
+      </Struct>
+    </NestedTypes>
+    <TypeIdentifier />
+  </Struct>
+  <Struct Name="CitizenInstance">
+    <Position X="304" Y="13.75" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Nested Types" Collapsed="false" />
+    </Compartments>
+    <NestedTypes>
+      <Enum Name="CitizenInstance.Flags" Collapsed="true">
+        <TypeIdentifier />
+      </Enum>
+      <Struct Name="CitizenInstance.Frame" Collapsed="true">
+        <TypeIdentifier />
+      </Struct>
+    </NestedTypes>
+    <TypeIdentifier />
+  </Struct>
+  <Struct Name="CitizenUnit">
+    <Position X="305.75" Y="13.75" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Nested Types" Collapsed="false" />
+    </Compartments>
+    <NestedTypes>
+      <Enum Name="CitizenUnit.Flags" Collapsed="true">
+        <TypeIdentifier />
+      </Enum>
+    </NestedTypes>
+    <TypeIdentifier />
+  </Struct>
+  <Struct Name="District">
+    <Position X="307.5" Y="13.75" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Nested Types" Collapsed="false" />
+    </Compartments>
+    <NestedTypes>
+      <Enum Name="District.Flags" Collapsed="true">
+        <TypeIdentifier />
+      </Enum>
+    </NestedTypes>
+    <TypeIdentifier />
+  </Struct>
+  <Struct Name="DistrictAgeData" Collapsed="true">
+    <Position X="309.25" Y="13.75" Width="1.5" />
+    <TypeIdentifier />
+  </Struct>
+  <Struct Name="DistrictConsumptionData" Collapsed="true">
+    <Position X="311" Y="13.75" Width="1.5" />
+    <TypeIdentifier />
+  </Struct>
+  <Struct Name="DistrictEducationData" Collapsed="true">
+    <Position X="312.75" Y="13.75" Width="1.5" />
+    <TypeIdentifier />
+  </Struct>
+  <Struct Name="DistrictGroundData" Collapsed="true">
+    <Position X="314.5" Y="13.75" Width="1.5" />
+    <TypeIdentifier />
+  </Struct>
+  <Struct Name="DistrictPopulationData" Collapsed="true">
+    <Position X="316.25" Y="13.75" Width="1.5" />
+    <TypeIdentifier />
+  </Struct>
+  <Struct Name="DistrictPrivateData" Collapsed="true">
+    <Position X="318" Y="13.75" Width="1.5" />
+    <TypeIdentifier />
+  </Struct>
+  <Struct Name="DistrictProductionData" Collapsed="true">
+    <Position X="319.75" Y="13.75" Width="1.5" />
+    <TypeIdentifier />
+  </Struct>
+  <Struct Name="DistrictResourceData" Collapsed="true">
+    <Position X="321.5" Y="13.75" Width="1.5" />
+    <TypeIdentifier />
+  </Struct>
+  <Struct Name="DistrictTouristData" Collapsed="true">
+    <Position X="300.5" Y="14.75" Width="1.5" />
+    <TypeIdentifier />
+  </Struct>
+  <Struct Name="DrawCallData" Collapsed="true">
+    <Position X="302.25" Y="14.75" Width="1.5" />
+    <TypeIdentifier />
+  </Struct>
+  <Struct Name="FixedBounds3D" Collapsed="true">
+    <Position X="304" Y="14.75" Width="1.5" />
+    <TypeIdentifier />
+  </Struct>
+  <Struct Name="FixedVector2D" Collapsed="true">
+    <Position X="305.75" Y="14.75" Width="1.5" />
+    <TypeIdentifier />
+  </Struct>
+  <Struct Name="FixedVector3D" Collapsed="true">
+    <Position X="307.5" Y="14.75" Width="1.5" />
+    <TypeIdentifier />
+  </Struct>
+  <Struct Name="InstanceID" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="309.25" Y="14.75" Width="1.5" />
+    <TypeIdentifier />
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Struct>
+  <Struct Name="LightData" Collapsed="true">
+    <Position X="311" Y="14.75" Width="1.5" />
+    <TypeIdentifier />
+  </Struct>
+  <Struct Name="NetLane">
+    <Position X="312.75" Y="14.75" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Nested Types" Collapsed="false" />
+    </Compartments>
+    <NestedTypes>
+      <Enum Name="NetLane.Flags" Collapsed="true">
+        <TypeIdentifier />
+      </Enum>
+    </NestedTypes>
+    <TypeIdentifier />
+  </Struct>
+  <Struct Name="NetNode">
+    <Position X="314.5" Y="14.75" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Nested Types" Collapsed="false" />
+    </Compartments>
+    <NestedTypes>
+      <Enum Name="NetNode.Flags" Collapsed="true">
+        <TypeIdentifier />
+      </Enum>
+    </NestedTypes>
+    <TypeIdentifier />
+  </Struct>
+  <Struct Name="NetSegment">
+    <Position X="316.25" Y="14.75" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Nested Types" Collapsed="false" />
+    </Compartments>
+    <NestedTypes>
+      <Enum Name="NetSegment.Flags" Collapsed="true">
+        <TypeIdentifier />
+      </Enum>
+    </NestedTypes>
+    <TypeIdentifier />
+  </Struct>
+  <Struct Name="Notification">
+    <Position X="318" Y="14.75" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Nested Types" Collapsed="false" />
+    </Compartments>
+    <NestedTypes>
+      <Enum Name="Notification.Problem" Collapsed="true">
+        <TypeIdentifier />
+      </Enum>
+    </NestedTypes>
+    <TypeIdentifier />
+  </Struct>
+  <Struct Name="NotificationEvent">
+    <Position X="319.75" Y="14.75" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Nested Types" Collapsed="false" />
+    </Compartments>
+    <NestedTypes>
+      <Enum Name="NotificationEvent.Type" Collapsed="true">
+        <TypeIdentifier />
+      </Enum>
+    </NestedTypes>
+    <TypeIdentifier />
+  </Struct>
+  <Struct Name="PathUnit">
+    <Position X="321.5" Y="14.75" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Nested Types" Collapsed="false" />
+    </Compartments>
+    <NestedTypes>
+      <Struct Name="PathUnit.Position" Collapsed="true">
+        <TypeIdentifier />
+      </Struct>
+    </NestedTypes>
+    <TypeIdentifier />
+  </Struct>
+  <Struct Name="PropInstance">
+    <Position X="300.5" Y="15.75" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Nested Types" Collapsed="false" />
+    </Compartments>
+    <NestedTypes>
+      <Enum Name="PropInstance.Flags" Collapsed="true">
+        <TypeIdentifier />
+      </Enum>
+    </NestedTypes>
+    <TypeIdentifier />
+  </Struct>
+  <Struct Name="RenderInstanceData" Collapsed="true">
+    <Position X="302.25" Y="15.75" Width="1.5" />
+    <TypeIdentifier />
+  </Struct>
+  <Struct Name="TransportLine">
+    <Position X="304" Y="15.75" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Nested Types" Collapsed="false" />
+    </Compartments>
+    <NestedTypes>
+      <Enum Name="TransportLine.Flags" Collapsed="true">
+        <TypeIdentifier />
+      </Enum>
+    </NestedTypes>
+    <TypeIdentifier />
+  </Struct>
+  <Struct Name="TransportPassengerData">
+    <Position X="305.75" Y="15.75" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Nested Types" Collapsed="false" />
+    </Compartments>
+    <NestedTypes>
+      <Struct Name="TransportPassengerData.GroupData" Collapsed="true">
+        <TypeIdentifier />
+      </Struct>
+    </NestedTypes>
+    <TypeIdentifier />
+  </Struct>
+  <Struct Name="TreeInstance">
+    <Position X="307.5" Y="15.75" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Nested Types" Collapsed="false" />
+    </Compartments>
+    <NestedTypes>
+      <Enum Name="TreeInstance.Flags" Collapsed="true">
+        <TypeIdentifier />
+      </Enum>
+    </NestedTypes>
+    <TypeIdentifier />
+  </Struct>
+  <Struct Name="Vehicle">
+    <Position X="309.25" Y="15.75" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Nested Types" Collapsed="false" />
+    </Compartments>
+    <NestedTypes>
+      <Enum Name="Vehicle.Flags" Collapsed="true">
+        <TypeIdentifier />
+      </Enum>
+      <Struct Name="Vehicle.Frame" Collapsed="true">
+        <TypeIdentifier />
+      </Struct>
+    </NestedTypes>
+    <TypeIdentifier />
+  </Struct>
+  <Struct Name="VehicleParked">
+    <Position X="311" Y="15.75" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Nested Types" Collapsed="false" />
+    </Compartments>
+    <NestedTypes>
+      <Enum Name="VehicleParked.Flags" Collapsed="true">
+        <TypeIdentifier />
+      </Enum>
+    </NestedTypes>
+    <TypeIdentifier />
+  </Struct>
+  <Struct Name="WaterSource" Collapsed="true">
+    <Position X="312.75" Y="15.75" Width="1.5" />
+    <TypeIdentifier />
+  </Struct>
+  <Struct Name="ZoneBlock" Collapsed="true">
+    <Position X="314.5" Y="15.75" Width="1.5" />
+    <TypeIdentifier />
+  </Struct>
+  <Interface Name="IAudibleManager" Collapsed="true">
+    <Position X="300.5" Y="17" Width="1.5" />
+    <TypeIdentifier />
+  </Interface>
+  <Interface Name="IRenderableManager" Collapsed="true">
+    <Position X="302.25" Y="17" Width="1.5" />
+    <TypeIdentifier />
+  </Interface>
+  <Interface Name="ISimulationManager" Collapsed="true">
+    <Position X="304" Y="17" Width="1.5" />
+    <TypeIdentifier />
+  </Interface>
+  <Interface Name="ITerrainManager" Collapsed="true">
+    <Position X="305.75" Y="17" Width="1.5" />
+    <TypeIdentifier />
+  </Interface>
+  <Interface Name="IUITag" Collapsed="true">
+    <Position X="307.5" Y="17" Width="1.5" />
+    <TypeIdentifier />
+  </Interface>
+  <Enum Name="InstanceType" Collapsed="true">
+    <Position X="300.5" Y="18" Width="1.5" />
+    <TypeIdentifier />
+  </Enum>
+  <Enum Name="LogChannel" Collapsed="true">
+    <Position X="302.25" Y="18" Width="1.5" />
+    <TypeIdentifier />
+  </Enum>
+  <Enum Name="StatisticType" Collapsed="true">
+    <Position X="304" Y="18" Width="1.5" />
+    <TypeIdentifier />
+  </Enum>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
