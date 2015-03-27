@@ -1,8 +1,10 @@
-﻿using ICities;
-using UnityEngine;
-using ColossalFramework.UI;
+﻿using ColossalFramework;
 using ColossalFramework.Plugins;
-using ColossalFramework;
+using ColossalFramework.UI;
+using ICities;
+using System;
+using UnityEngine;
+using System.ComponentModel;
 
 namespace SkylinesGIS
 {
@@ -25,43 +27,83 @@ namespace SkylinesGIS
     {
         public override void OnLevelLoaded(LoadMode mode)
         {
-            //DeveloperUI.
-            DebugOutputPanel.AddMessage(PluginManager.MessageType.Error, "stdafas");
-            DebugOutputPanel.AddMessage(PluginManager.MessageType.Error, "Max Map Buildings: " + BuildingManager.MAX_MAP_BUILDINGS.ToString());
-            DebugOutputPanel.AddMessage(PluginManager.MessageType.Error, "Max Building Count: " + BuildingManager.MAX_BUILDING_COUNT.ToString());
-            Building myBuilding = (Building) BuildingManager.instance.m_buildings.m_buffer[0];
-            DebugOutputPanel.AddMessage(PluginManager.MessageType.Error, myBuilding.ToString());
-            //Utils.OpenInWinFileBrowser("C:/",true); 
-            /*BuildingManager myManager = new BuildingManager();
-            BuildingInfo myBuildingInfo = new BuildingInfo();
-            Vector3 myVector = new Vector3(300,300);
-            ColossalFramework.Math.Randomizer myRandomizer = new ColossalFramework.Math.Randomizer(1);
-            myManager.AddServiceBuilding(1, ItemClass.Service.FireDepartment);
-            ushort myOut;  
-            float myAngle = 0;
-            int myLenth = 200;
-            uint myBuildIndex = 1;
-            CemeteryAI myCemetery = new CemeteryAI();
-            Building myBuilding = new Building();
-            
-             */ 
-
-            //myBuilding.
-            //myCemetery.CreateBuilding(123456,)
-            //myManager.CreateBuilding(myOut, myRandomizer, myBuildingInfo, myVector, myAngle, myLenth, myBuildIndex);
-            //BuildingTool.DispatchPlacementEffect()
-            // this seems to get the default UIView
-            //UIView v = UIView.GetAView();
-
-            //this adds an UIComponent to the view
-            //UIComponent uic = v.AddUIComponent(typeof(ExamplePanel));
-
-            // ALTERNATIVELY, this seems to work like the lines above, but is a bit longer:
-            // UIView v = UIView.GetAView ();
-            // GameObject go = new GameObject ("panelthing", typeof(ExamplePanel));
-            // UIComponent uic = v.AttachUIComponent (go);
+            dumpAllBuildings();
+            dumpAllVehicles();
+            spawnVehicle();
         }
 
+        public void spawnVehicle()
+        {
+            ushort newVehicle;
+            VehicleManager vehicleManager = Singleton<VehicleManager>.instance;
+            SimulationManager simulationManager = Singleton<SimulationManager>.instance;
+            VehicleInfo vehicleInfo = PrefabCollection<VehicleInfo>.GetPrefab(0);
+       
+            bool vehicleCreated = vehicleManager.CreateVehicle(out newVehicle, ref simulationManager.m_randomizer,
+                vehicleInfo, Camera.main.transform.position, 
+                TransferManager.TransferReason.Single1, false, false);
+
+            //VehicleInfo newInfo = vehicleManager.m_vehicles.m_buffer[(int)newVehicle].Info;
+            vehicleManager.m_vehicles.m_buffer[(int)newVehicle].m_flags |= Vehicle.Flags.Spawned;
+            bool vehicleSpawned = vehicleInfo.m_vehicleAI.TrySpawn(newVehicle, ref vehicleManager.m_vehicles.m_buffer[(int)newVehicle]);
+
+            debug(0, newVehicle);
+            debug(0, vehicleInfo);
+            debug(0, "Spawned: " + vehicleSpawned);
+            debug(0, "Created: " + vehicleCreated);
+        }
+
+        public void debug(int index, object message)
+        {
+            PluginManager.MessageType type;
+            if (index == (int)PluginManager.MessageType.Message){
+                type = PluginManager.MessageType.Message;
+            }
+            else if (index == (int)PluginManager.MessageType.Warning)
+            {
+                type = PluginManager.MessageType.Warning;
+            }
+            else
+            {
+                type = PluginManager.MessageType.Error;
+            }
+
+            DebugOutputPanel.AddMessage(type, message.ToString());
+        }
+        public void printExceptionDetails(Exception exception)
+        {
+            DebugOutputPanel.AddMessage(PluginManager.MessageType.Error, exception.ToString());
+        }
+
+        public void dumpObject(object myObject, string variableName)
+        {
+            string myObjectDetails = variableName + "\n";
+            foreach (PropertyDescriptor descriptor in TypeDescriptor.GetProperties(myObject))
+            {
+                string name = descriptor.Name;
+                object value = descriptor.GetValue(myObject);
+                myObjectDetails += name + ": " + value + "\n";
+            }
+            DebugOutputPanel.AddMessage(PluginManager.MessageType.Message, myObjectDetails);
+        }
+        public void dumpAllBuildings()
+        {
+            int count = PrefabCollection<BuildingInfo>.LoadedCount();
+            for (uint x = 0; x < count; x += 1)
+            {
+                BuildingInfo aBuildingInfo = PrefabCollection<BuildingInfo>.GetPrefab(x);
+                dumpObject(aBuildingInfo, "BuildingInfo " + x + ":");
+            }
+        }
+        public void dumpAllVehicles()
+        {
+            int count = PrefabCollection<VehicleInfo>.LoadedCount();
+            for (uint x = 0; x < count; x += 1)
+            {
+                VehicleInfo aVehicleInfo = PrefabCollection<VehicleInfo>.GetPrefab(x);
+                dumpObject(aVehicleInfo, "VehicleInfo " + x + ":");
+            }
+        }
     }
 } 
 
