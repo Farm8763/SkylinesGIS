@@ -43,9 +43,19 @@ namespace SkylinesGIS
             NetInfo gravelRoad = PrefabCollection<NetInfo>.GetPrefab(41);
             Vector3 startPos = new Vector3(0, 0, 0);
             Vector3 endPos = new Vector3(600, 0, 600);
+            buildBuilding(startPos,0,306);
             //buildRoad(startPos, endPos, 38);
-            //buildRoad(startPos, new Vector3(800,0,800), 38);
+            //buildRoad(startPos, new Vector3(0,0,-800), 38);
         }
+        public void buildBuilding(Vector3 position, float angle, uint prefabIndex)
+        {
+            ushort building;
+            BuildingManager instance = Singleton<BuildingManager>.instance;
+            BuildingInfo buildingInfo = PrefabCollection<BuildingInfo>.GetPrefab(prefabIndex);
+            instance.CreateBuilding(out building, ref Singleton<SimulationManager>.instance.m_randomizer, buildingInfo, 
+                position, angle, 0, Singleton<SimulationManager>.instance.m_currentBuildIndex);
+        }
+
         public void buildRoad(Vector3 startVector, Vector3 endVector, uint prefabNumber)
         {
             int maxSegments = 3;
