@@ -43,10 +43,12 @@ namespace SkylinesGIS
             NetInfo gravelRoad = PrefabCollection<NetInfo>.GetPrefab(41);
             Vector3 startPos = new Vector3(0, 0, 0);
             Vector3 endPos = new Vector3(600, 0, 600);
+            buildRoad(startPos, endPos, 38);
             buildBuilding(startPos,0,306);
-            //buildRoad(startPos, endPos, 38);
+            
             //buildRoad(startPos, new Vector3(0,0,-800), 38);
         }
+
         public void buildBuilding(Vector3 position, float angle, uint prefabIndex)
         {
             ushort building;
@@ -58,7 +60,7 @@ namespace SkylinesGIS
 
         public void buildRoad(Vector3 startVector, Vector3 endVector, uint prefabNumber)
         {
-            int maxSegments = 3;
+            int maxSegments = 100;
             bool test = false;
             bool visualize = false;
             bool autoFix = true;
@@ -186,6 +188,7 @@ namespace SkylinesGIS
                 dumpObject(aVehicleInfo, "VehicleInfo " + x + ":");
             }
         }
+
     }
 } 
 
