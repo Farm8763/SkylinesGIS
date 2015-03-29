@@ -27,6 +27,7 @@ namespace SkylinesGIS
     {
         public override void OnLevelLoaded(LoadMode mode)
         {
+            
             //dumpAllBuildings();
             //dumpAllVehicles();
             //spawnVehicle();
@@ -128,6 +129,41 @@ namespace SkylinesGIS
             debug(0, "Created: " + vehicleCreated);
         }
 
+        public class UnlockAllMilestones : MilestonesExtensionBase
+        {
+
+            public override void OnRefreshMilestones()
+            {
+                milestonesManager.UnlockMilestone("Basic Road Created");
+            }
+
+            public override int OnGetPopulationTarget(int originalTarget, int scaledTarget)
+            {
+                return 0;
+            }
+
+        }
+
+        public class UnlimitedMoneyEconomy : EconomyExtensionBase
+        {
+
+            public override long OnUpdateMoneyAmount(long internalMoneyAmount)
+            {
+                return long.MaxValue;
+            }
+
+            public override bool OverrideDefaultPeekResource
+            {
+                get { return true; }
+            }
+
+            public override int OnPeekResource(EconomyResource resource, int amount)
+            {
+                return amount;
+            }
+
+        }
+
         public void debug(int index, object message)
         {
             PluginManager.MessageType type;
@@ -188,6 +224,7 @@ namespace SkylinesGIS
                 dumpObject(aVehicleInfo, "VehicleInfo " + x + ":");
             }
         }
+
 
     }
 } 
