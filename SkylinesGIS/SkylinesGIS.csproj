@@ -54,6 +54,8 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="GeoUtils.cs" />
+    <Compile Include="PrefabNames.cs" />
     <Compile Include="RealData.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
@@ -61,9 +63,9 @@
     <None Include="Extra Stuff\Class Diagrams\ColossalManaged.cd" />
     <None Include="Extra Stuff\Class Diagrams\ICities.cd" />
     <None Include="Extra Stuff\Class Diagrams\Assembly-CSharp.cd" />
-  </ItemGroup>
-  <ItemGroup>
-    <Content Include="Extra Stuff\snippits.txt" />
+    <None Include="Extra Stuff\Prefab Index Lists\BuildingPrefabs.rst" />
+    <None Include="Extra Stuff\Prefab Index Lists\NetPrefabs.rst" />
+    <None Include="Extra Stuff\Prefab Index Lists\VehiclePrefabs.rst" />
   </ItemGroup>
   <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

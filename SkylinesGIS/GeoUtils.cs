@@ -11,6 +11,12 @@ namespace SkylinesGIS
     {
         int mapWidthKilometers = 10;
         int mapLengthKilometers = 10;
+        int tileWidthVector = 2000;
+        int mapWidthVector = 10000;
+        int maximumX = 5000;
+        int minimumX = -5000;
+        int minimumY = -5000;
+        int maximumY = 5000;
         double _eQuatorialEarthRadius = 6378.1370D;
         double _d2r = (Math.PI / 180D);
 

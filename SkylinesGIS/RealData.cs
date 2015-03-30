@@ -27,27 +27,38 @@ namespace SkylinesGIS
     {
         public override void OnLevelLoaded(LoadMode mode)
         {
-            
+
+            unlockAllTiles();
             //dumpAllBuildings();
             //dumpAllVehicles();
             //spawnVehicle();
             //roads/paths
             //dumpAllNetInfo();
-            BuildingInfo cemetery = PrefabCollection<BuildingInfo>.FindLoaded(PrefabNames.Buildings.PoliceHeadquarters);
-            BuildingInfo clinic = PrefabCollection<BuildingInfo>.GetPrefab(306);
-            BuildingInfo hospital = PrefabCollection<BuildingInfo>.GetPrefab(307);
-            BuildingInfo medicalCenter = PrefabCollection<BuildingInfo>.GetPrefab(308);
-            BuildingInfo fireStation = PrefabCollection<BuildingInfo>.GetPrefab(92);
-            BuildingInfo fireHouse = PrefabCollection<BuildingInfo>.GetPrefab(93);
-            NetInfo pedestrianPavement = PrefabCollection<NetInfo>.GetPrefab(4);
-            NetInfo basicRoad = PrefabCollection<NetInfo>.GetPrefab(38);
-            NetInfo gravelRoad = PrefabCollection<NetInfo>.GetPrefab(41);
-            Vector3 startPos = new Vector3(0, 0, 0);
-            Vector3 endPos = new Vector3(600, 0, 600);
-            buildRoad(startPos, endPos, PrefabNames.Roads.GravelRoad);
-            buildBuilding(startPos, 0, PrefabNames.Buildings.PoliceHeadquarters);
+            Vector3 startPos1 = new Vector3(0, 0, 0);
+            Vector3 endPos1 = new Vector3(600, 0, 0);
+            Vector3 startPos2 = new Vector3(0, 0, 100);
+            Vector3 endPos2 = new Vector3(600, 0, 100);
+            Vector3 buildingPos1 = new Vector3(1000, 0, 1000);
+            Vector3 buildingPos2 = new Vector3(-1000, 0, -1000);
+            buildRoad(startPos1, endPos1, PrefabNames.Roads.GravelRoad);
+            buildRoad(startPos2, endPos2, PrefabNames.Roads.LargeRoadDecorationTrees);
+            buildBuilding(buildingPos1, 0, PrefabNames.Buildings.PoshMall);
+            buildBuilding(buildingPos2, 0, PrefabNames.Buildings.PoshMall);
             
             //buildRoad(startPos, new Vector3(0,0,-800), 38);
+        }
+
+        public void unlockAllTiles()
+        {
+            int maxTiles = 25;
+            Singleton<GameAreaManager>.instance.m_maxAreaCount = maxTiles;
+            for (int index = 0; index < 4; index += 1)
+            {
+                for (int index2 = 0; index2 < maxTiles; index2 += 1)
+                {
+                    Singleton<GameAreaManager>.instance.UnlockArea(index2);
+                }
+            }
         }
 
         public void buildBuilding(Vector3 position, float angle, string name)
