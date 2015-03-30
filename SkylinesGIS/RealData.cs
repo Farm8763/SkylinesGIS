@@ -33,7 +33,7 @@ namespace SkylinesGIS
             //spawnVehicle();
             //roads/paths
             //dumpAllNetInfo();
-            BuildingInfo cemetery = PrefabCollection<BuildingInfo>.GetPrefab(310);
+            BuildingInfo cemetery = PrefabCollection<BuildingInfo>.FindLoaded(PrefabNames.Buildings.PoliceHeadquarters);
             BuildingInfo clinic = PrefabCollection<BuildingInfo>.GetPrefab(306);
             BuildingInfo hospital = PrefabCollection<BuildingInfo>.GetPrefab(307);
             BuildingInfo medicalCenter = PrefabCollection<BuildingInfo>.GetPrefab(308);
@@ -44,22 +44,22 @@ namespace SkylinesGIS
             NetInfo gravelRoad = PrefabCollection<NetInfo>.GetPrefab(41);
             Vector3 startPos = new Vector3(0, 0, 0);
             Vector3 endPos = new Vector3(600, 0, 600);
-            buildRoad(startPos, endPos, 38);
-            buildBuilding(startPos,0,306);
+            buildRoad(startPos, endPos, PrefabNames.Roads.GravelRoad);
+            buildBuilding(startPos, 0, PrefabNames.Buildings.PoliceHeadquarters);
             
             //buildRoad(startPos, new Vector3(0,0,-800), 38);
         }
 
-        public void buildBuilding(Vector3 position, float angle, uint prefabIndex)
+        public void buildBuilding(Vector3 position, float angle, string name)
         {
             ushort building;
             BuildingManager instance = Singleton<BuildingManager>.instance;
-            BuildingInfo buildingInfo = PrefabCollection<BuildingInfo>.GetPrefab(prefabIndex);
+            BuildingInfo buildingInfo = PrefabCollection<BuildingInfo>.FindLoaded(name);
             instance.CreateBuilding(out building, ref Singleton<SimulationManager>.instance.m_randomizer, buildingInfo, 
                 position, angle, 0, Singleton<SimulationManager>.instance.m_currentBuildIndex);
         }
 
-        public void buildRoad(Vector3 startVector, Vector3 endVector, uint prefabNumber)
+        public void buildRoad(Vector3 startVector, Vector3 endVector, string name)
         {
             int maxSegments = 100;
             bool test = false;
@@ -77,7 +77,7 @@ namespace SkylinesGIS
             int cost;
             int productionRate;
 
-            NetInfo netInfo = PrefabCollection<NetInfo>.GetPrefab(prefabNumber);
+            NetInfo netInfo = PrefabCollection<NetInfo>.FindLoaded(name);
             float startHeight = NetSegment.SampleTerrainHeight(netInfo, startVector, false);
             float endHeight = NetSegment.SampleTerrainHeight(netInfo, endVector, false);
 
