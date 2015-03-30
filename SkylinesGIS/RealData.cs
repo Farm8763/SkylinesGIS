@@ -6,6 +6,9 @@ using System;
 using UnityEngine;
 using System.ComponentModel;
 using ColossalFramework.Math;
+using KMLib;
+using KMLib.Feature;
+using KMLib.Geometry;
 
 namespace SkylinesGIS
 {
@@ -44,8 +47,33 @@ namespace SkylinesGIS
             buildRoad(startPos2, endPos2, PrefabNames.Roads.LargeRoadDecorationTrees);
             buildBuilding(buildingPos1, 0, PrefabNames.Buildings.PoshMall);
             buildBuilding(buildingPos2, 0, PrefabNames.Buildings.PoshMall);
+            KMLRoot kmlDoc = CreateKmlDoc();
             
-            //buildRoad(startPos, new Vector3(0,0,-800), 38);
+            dumpObject(kmlDoc.Document.List[0], "doc");
+            debug(0, "The placemark name is: " + kmlDoc.Document.List[0].name);
+            //buildRoad(startPos, new Vector3(0,0,-800), 38); 
+        }
+
+        public KMLRoot loadKml(string path){
+            return KMLRoot.Load(path);
+        }
+
+        public KMLRoot CreateKmlDoc()
+        {
+            KMLRoot kml = new KMLRoot();
+            Placemark pm = new Placemark();
+            pm.name = "foo";
+            pm.Point = new KmlPoint(120, 45, 50);
+            pm.Snippet = "foo is cool";
+            pm.Snippet.maxLines = 1;
+
+            Folder fldr = new Folder("Test Folder");
+
+            kml.Document.Add(pm);
+            kml.Document.Add(new Placemark());
+            kml.Document.Add(fldr);
+
+            return kml;
         }
 
         public void unlockAllTiles()
