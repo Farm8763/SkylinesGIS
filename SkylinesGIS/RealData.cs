@@ -45,13 +45,20 @@ namespace SkylinesGIS
             Vector3 buildingPos2 = new Vector3(-1000, 0, -1000);
             buildRoad(startPos1, endPos1, PrefabNames.Roads.GravelRoad);
             buildRoad(startPos2, endPos2, PrefabNames.Roads.LargeRoadDecorationTrees);
-            buildBuilding(buildingPos1, 0, PrefabNames.Buildings.PoshMall);
+            buildBuilding(buildingPos1, 0, PrefabNames.Buildings.SpaceElevator);
             buildBuilding(buildingPos2, 0, PrefabNames.Buildings.PoshMall);
             KMLRoot kmlDoc = CreateKmlDoc();
             
             dumpObject(kmlDoc.Document.List[0], "doc");
             debug(0, "The placemark name is: " + kmlDoc.Document.List[0].name);
             //buildRoad(startPos, new Vector3(0,0,-800), 38); 
+            KmlPoint myCorner = new KmlPoint((float)-95, (float)60);
+            GeoUtils.GpsMap map = new GeoUtils.GpsMap(myCorner);
+            debug(0, "map created");
+            dumpObject(map.topLeftCorner, "TopLeft");
+            dumpObject(map.topRightCorner, "TopRight");
+            dumpObject(map.bottomLeftCorner, "BottomLeft");
+            dumpObject(map.bottomRightCorner, "BottomRight");
         }
 
         public KMLRoot loadKml(string path){
