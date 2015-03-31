@@ -10,6 +10,35 @@ using KMLib.Geometry;
 
 namespace SkylinesGIS
 {
+    public class GpsMap
+    {
+        public KmlPoint topLeftCorner;
+        public KmlPoint topRightCorner;
+        public KmlPoint bottomLeftCorner;
+        public KmlPoint bottomRightCorner;
+
+        public GpsMap(KmlPoint corner)
+        {
+            double radianLat = Math.PI * corner.Latitude / 180;
+            this.topLeftCorner = corner;
+            float bottomLatitude = corner.Latitude - (float)(10 / 111.111);
+            float rightLongitude = corner.Longitude + (float)(10 / 111.111) / (float)Math.Cos(radianLat);
+            this.bottomLeftCorner = new KmlPoint(corner.Longitude, bottomLatitude);
+            this.bottomRightCorner = new KmlPoint(rightLongitude, bottomLatitude);
+            this.topRightCorner = new KmlPoint(rightLongitude, corner.Latitude);
+        }
+        public bool CheckPointInMap(KmlPoint pointToCheck)
+        {
+            bool result = false;
+            if (pointToCheck.Latitude <= topLeftCorner.Latitude && pointToCheck.Latitude >= bottomLeftCorner.Latitude
+                && pointToCheck.Longitude >= topLeftCorner.Longitude && pointToCheck.Longitude <= topRightCorner.Longitude)
+            {
+                result = true;
+            }
+            return result;
+        }
+    }
+
     public class GeoUtils
     {
         int mapWidthKilometers = 10;
@@ -38,31 +67,7 @@ namespace SkylinesGIS
 
             return d;
         }
-        public class GpsMap
-        {
-            public KmlPoint topLeftCorner;
-            public KmlPoint topRightCorner;
-            public KmlPoint bottomLeftCorner;
-            public KmlPoint bottomRightCorner;
-
-            public GpsMap(KmlPoint corner)
-            {
-                    double radianLat= Math.PI * corner.Latitude/180;
-                    this.topLeftCorner = corner;
-                    float bottomLatitude = corner.Latitude - (float)(10 / 111.111);
-                    float rightLongitude = corner.Longitude + (float)(10 / 111.111) / (float)Math.Cos(radianLat);
-                    this.bottomLeftCorner = new KmlPoint(corner.Longitude, bottomLatitude);
-                    this.bottomRightCorner = new KmlPoint(rightLongitude, bottomLatitude);
-                    this.topRightCorner = new KmlPoint(rightLongitude, corner.Latitude);
-            }
-
-        }
-        public bool CheckPointInMap(GpsMap map, KmlPoint pointToCheck)
-        {
-            bool result = false;
-            //if (pointToCheck.Latitude)
-            return result;
-        }
+        
         public Vector2 CartesianToPolar(Vector3 point)
         {
             Vector2 polar;

@@ -53,7 +53,7 @@ namespace SkylinesGIS
             debug(0, "The placemark name is: " + kmlDoc.Document.List[0].name);
             //buildRoad(startPos, new Vector3(0,0,-800), 38); 
             KmlPoint myCorner = new KmlPoint((float)-95, (float)60);
-            GeoUtils.GpsMap map = new GeoUtils.GpsMap(myCorner);
+            GpsMap map = new GpsMap(myCorner);
             debug(0, "map created");
             dumpObject(map.topLeftCorner, "TopLeft");
             dumpObject(map.topRightCorner, "TopRight");
