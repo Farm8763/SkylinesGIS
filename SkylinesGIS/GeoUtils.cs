@@ -7,6 +7,7 @@ using UnityEngine;
 using KMLib;
 using KMLib.Feature;
 using KMLib.Geometry;
+using Core.Geometry;
 
 namespace SkylinesGIS
 {
@@ -16,16 +17,29 @@ namespace SkylinesGIS
         public KmlPoint topRightCorner;
         public KmlPoint bottomLeftCorner;
         public KmlPoint bottomRightCorner;
+        public KmlPoint middle;
+        float bottomLatitude;
+        float topLatitude;
+        float rightLongitude;
+        float leftLongitude;
 
-        public GpsMap(KmlPoint corner)
+        /* 
+         * Takes the middle point of the map and defines the corner points. 
+         */
+        public GpsMap(KmlPoint middle)
         {
-            double radianLat = Math.PI * corner.Latitude / 180;
-            this.topLeftCorner = corner;
-            float bottomLatitude = corner.Latitude - (float)(10 / 111.111);
-            float rightLongitude = corner.Longitude + (float)(10 / 111.111) / (float)Math.Cos(radianLat);
-            this.bottomLeftCorner = new KmlPoint(corner.Longitude, bottomLatitude);
+            double radianLat = Math.PI * middle.Latitude / 180;
+               
+            bottomLatitude = middle.Latitude - (float)(5 / 111.111);
+            topLatitude = middle.Latitude + (float)(5 / 111.111);
+            rightLongitude = middle.Longitude + (float)(5 / 111.111) / (float)Math.Cos(radianLat);
+            leftLongitude = middle.Longitude - (float)(5 / 111.111) / (float)Math.Cos(radianLat);
+
+            this.middle = middle;
+            this.topLeftCorner = new KmlPoint(leftLongitude, topLatitude);
+            this.bottomLeftCorner = new KmlPoint(leftLongitude, bottomLatitude);
             this.bottomRightCorner = new KmlPoint(rightLongitude, bottomLatitude);
-            this.topRightCorner = new KmlPoint(rightLongitude, corner.Latitude);
+            this.topRightCorner = new KmlPoint(rightLongitude, topLatitude);
         }
         public bool CheckPointInMap(KmlPoint pointToCheck)
         {
@@ -37,27 +51,47 @@ namespace SkylinesGIS
             }
             return result;
         }
+        public float getZFromPoint(Point3D point)
+        {
+            float z = 0;
+            z = (float)GeoUtils.HaversineInM((double)this.middle.Latitude, 0, point.Y, 0);
+            return z;
+        }
+        public float getXFromPoint(Point3D point)
+        {
+            float x = 0;
+            x = (float) GeoUtils.HaversineInM(0, (double)this.middle.Longitude, 0, point.X);
+            return x;
+        }
+        public Vector3 getVectorFromPoint(Point3D point)
+        {
+            Vector3 convertedPoint;
+
+            convertedPoint = new Vector3(getXFromPoint(point), 0, getZFromPoint(point));
+
+            return convertedPoint;
+        }
     }
 
-    public class GeoUtils
+    public static class GeoUtils
     {
-        int mapWidthKilometers = 10;
-        int mapLengthKilometers = 10;
-        int tileWidthVector = 2000;
-        int mapWidthVector = 10000;
-        int maximumX = 5000;
-        int minimumX = -5000;
-        int minimumY = -5000;
-        int maximumY = 5000;
-        double _eQuatorialEarthRadius = 6378.1370D;
-        double _d2r = (Math.PI / 180D);
+        static int mapWidthKilometers = 10;
+        static int mapLengthKilometers = 10;
+        static int tileWidthVector = 2000;
+        static int mapWidthVector = 10000;
+        static int maximumX = 5000;
+        static int minimumX = -5000;
+        static int minimumY = -5000;
+        static int maximumY = 5000;
+        static double _eQuatorialEarthRadius = 6378.1370D;
+        static double _d2r = (Math.PI / 180D);
 
-        public int HaversineInM(double lat1, double long1, double lat2, double long2)
+        public static int HaversineInM(double lat1, double long1, double lat2, double long2)
         {
             return (int)(1000D * HaversineInKM(lat1, long1, lat2, long2));
         }
 
-        public double HaversineInKM(double lat1, double long1, double lat2, double long2)
+        public static double HaversineInKM(double lat1, double long1, double lat2, double long2)
         {
             double dlong = (long2 - long1) * _d2r;
             double dlat = (lat2 - lat1) * _d2r;
@@ -68,33 +102,5 @@ namespace SkylinesGIS
             return d;
         }
         
-        public Vector2 CartesianToPolar(Vector3 point)
-        {
-            Vector2 polar;
-            //calc longitude 
-            polar.y = Mathf.Atan2(point.x, point.z);
-
-            //this is easier to write and read than sqrt(pow(x,2), pow(y,2))!
-            float xzLen = new Vector2(point.x, point.z).magnitude;
-            //do the atan thing to get our latitude
-            polar.x = Mathf.Atan2(-point.y, xzLen);
-
-            //convert to degrees
-            polar *= Mathf.Rad2Deg;
-
-            return polar;
-        }
-
-        public Vector3 PolarToCartesian(Vector2 polar)
-        {
-            //an origin vector, representing lat,lon of 0,0. 
-            Vector3 origin = new Vector3(0, 0, 1);
-            //generate a rotation quat based on polar's angle values
-            Quaternion rotation = Quaternion.Euler(polar.x, polar.y, 0);
-            //rotate origin by rotation
-            Vector3 point = rotation * origin;
-
-            return point;
-        }
     }
 }

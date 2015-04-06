@@ -1,0 +1,76 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="SkylinesGIS.RealData" BaseTypeListCollapsed="true">
+    <Position X="4" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAgAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>RealData.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="SkylinesGIS.LoadingExtension" Collapsed="true">
+    <Position X="4" Y="0.5" Width="1.5" />
+    <NestedTypes>
+      <Class Name="SkylinesGIS.LoadingExtension.UnlockAllMilestones" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>RealData.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+      <Class Name="SkylinesGIS.LoadingExtension.UnlimitedMoneyEconomy" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>RealData.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AAAABAAAEgACAAAAACCABAgAAgAAAAAIBCABAAAAAAA=</HashCode>
+      <FileName>RealData.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SkylinesGIS.PrefabNames">
+    <Position X="6.25" Y="3" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Nested Types" Collapsed="false" />
+    </Compartments>
+    <NestedTypes>
+      <Class Name="SkylinesGIS.PrefabNames.Buildings" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>PrefabNames.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+      <Class Name="SkylinesGIS.PrefabNames.Vehicles" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>PrefabNames.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+      <Class Name="SkylinesGIS.PrefabNames.Roads" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>PrefabNames.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>PrefabNames.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SkylinesGIS.GpsMap">
+    <Position X="4" Y="3" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAIAAAAAAAAEAAAAAAAAAAAAAAAAAAAAABAAAAQAAg=</HashCode>
+      <FileName>GeoUtils.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SkylinesGIS.GeoUtils">
+    <Position X="2.25" Y="3" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+      <Compartment Name="Methods" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AQAAABAAAAAAICAAACCIAABAAIAAAAAQAAAAAAIAQBg=</HashCode>
+      <FileName>GeoUtils.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

@@ -9,6 +9,7 @@ using ColossalFramework.Math;
 using KMLib;
 using KMLib.Feature;
 using KMLib.Geometry;
+using Core.Geometry;
 
 namespace SkylinesGIS
 {
@@ -32,55 +33,88 @@ namespace SkylinesGIS
         {
 
             unlockAllTiles();
-            //dumpAllBuildings();
-            //dumpAllVehicles();
-            //spawnVehicle();
-            //roads/paths
-            //dumpAllNetInfo();
-            Vector3 startPos1 = new Vector3(0, 0, 0);
-            Vector3 endPos1 = new Vector3(600, 0, 0);
-            Vector3 startPos2 = new Vector3(0, 0, 100);
-            Vector3 endPos2 = new Vector3(600, 0, 100);
-            Vector3 buildingPos1 = new Vector3(1000, 0, 1000);
-            Vector3 buildingPos2 = new Vector3(-1000, 0, -1000);
-            buildRoad(startPos1, endPos1, PrefabNames.Roads.GravelRoad);
-            buildRoad(startPos2, endPos2, PrefabNames.Roads.LargeRoadDecorationTrees);
-            buildBuilding(buildingPos1, 0, PrefabNames.Buildings.SpaceElevator);
-            buildBuilding(buildingPos2, 0, PrefabNames.Buildings.PoshMall);
-            KMLRoot kmlDoc = CreateKmlDoc();
-            
-            dumpObject(kmlDoc.Document.List[0], "doc");
-            debug(0, "The placemark name is: " + kmlDoc.Document.List[0].name);
-            //buildRoad(startPos, new Vector3(0,0,-800), 38); 
-            KmlPoint myCorner = new KmlPoint((float)-95, (float)60);
-            GpsMap map = new GpsMap(myCorner);
-            debug(0, "map created");
-            dumpObject(map.topLeftCorner, "TopLeft");
-            dumpObject(map.topRightCorner, "TopRight");
-            dumpObject(map.bottomLeftCorner, "BottomLeft");
-            dumpObject(map.bottomRightCorner, "BottomRight");
-        }
 
+            KmlPoint myCorner = new KmlPoint((float)-75.42669453695652, (float)45.42103774885076);
+            GpsMap map = new GpsMap(myCorner);
+            LineString colonialRoad = new LineString();
+            Coordinates myCoord = new Coordinates();
+            colonialRoad.coordinates = myCoord;
+            colonialRoad.coordinates.Add(new Point3D(-75.42669453695652, 45.42103774885076, 0));
+            colonialRoad.coordinates.Add(new Point3D(-75.42543094797206, 45.42131939106098, 0));
+            colonialRoad.coordinates.Add(new Point3D(-75.40868156349399, 45.42318532487945, 0));
+
+            KMLRoot myRoot = new KMLRoot();
+            Placemark myRoad = new Placemark();
+            myRoad.LineString = colonialRoad;
+            myRoot.Document = new Document();
+
+            Placemark myFireHouse = new Placemark();
+            Coordinates myCoord2 = new Coordinates();
+            myCoord2.Add(new Point3D(-75.42543094797206, 45.42103774885076, 0));
+            KmlPoint myFirePoint = new KmlPoint();
+            myFirePoint.coordinates = myCoord2;
+            myFireHouse.Point = myFirePoint;
+            
+            myRoot.Document.Add(myRoad);
+            myRoot.Document.Add(myFireHouse);
+
+            buildKml(myRoot, map);
+        }
+        
         public KMLRoot loadKml(string path){
             return KMLRoot.Load(path);
         }
-
-        public KMLRoot CreateKmlDoc()
+        public void buildKml(KMLRoot kml, GpsMap map)
         {
-            KMLRoot kml = new KMLRoot();
-            Placemark pm = new Placemark();
-            pm.name = "foo";
-            pm.Point = new KmlPoint(120, 45, 50);
-            pm.Snippet = "foo is cool";
-            pm.Snippet.maxLines = 1;
+            int count = kml.Document.List.Count;
+            for (int x = 0; x < count; x++)
+            {
+                if (kml.Document.List[x] is Placemark)
+                {
+                    Placemark currentPlacemark = (Placemark)kml.Document.List[x];
+                    buildFromPlacemark(currentPlacemark, map);
+                }
 
-            Folder fldr = new Folder("Test Folder");
+            }
+        }
+        public void buildBuildingFromPlacemark(Placemark building, GpsMap map)
+        {
+            Point3D point = building.Point.coordinates[0];
+            Vector3 vector = map.getVectorFromPoint(point);
+            dumpObject(vector, "vector");
+            buildBuilding(vector, 0, PrefabNames.Buildings.FireHouse);
+        }
 
-            kml.Document.Add(pm);
-            kml.Document.Add(new Placemark());
-            kml.Document.Add(fldr);
+        public void buildFromPlacemark(Placemark placemark, GpsMap map)
+        {
+            if (placemark.Point != null)
+            {
+                debug(0, "building");
+                buildBuildingFromPlacemark(placemark, map);
+            }
+            else if (placemark.LineString != null)
+            {
+                debug(0, "road");
+                buildRoadsFromPlacemark(placemark, map);
+            }
+            
+        }
+        public void buildRoadsFromPlacemark(Placemark road, GpsMap map)
+        {
+            int count = road.LineString.coordinates.Count;
+            Point3D startPoint;
+            Point3D endPoint;
+            Vector3 startVector;
+            Vector3 endVector;
 
-            return kml;
+            for (int x = 1; x < count; x++)
+            {
+                startPoint = road.LineString.coordinates[x - 1];
+                endPoint = road.LineString.coordinates[x];
+                startVector = map.getVectorFromPoint(startPoint);
+                endVector = map.getVectorFromPoint(endPoint);
+                buildRoad(startVector, endVector, PrefabNames.Roads.BasicRoad);
+            }
         }
 
         public void unlockAllTiles()
